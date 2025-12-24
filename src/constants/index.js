@@ -1,0 +1,610 @@
+import {
+  mobile,
+  backend,
+  creator,
+  web,
+
+  javascript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  c,
+  cpp,
+  python,
+  threejs,
+  threejsmobile,
+  aws,
+  logo_sk,
+
+  codeforce,
+  codechef,
+  geeksforgeeks,
+  leetcode,
+
+  firstphoto,
+  flip,
+
+} from "../assets";
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "work",
+    title: "Project",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const services = [
+  {
+    title: " MERN Stack Developer",
+    icon: web,
+  },
+  {
+    title: "Frontend Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Photographer",
+    icon: creator,
+  },
+];
+
+
+
+
+
+const technologies = [
+  {
+    name: "HTML",
+    icon: html,
+  },
+  {
+    name: "CSS",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+    mobileIcon: threejsmobile,
+  },
+
+
+  // {
+  //   name: "c",
+  //   icon: c,
+  // },
+  {
+    name: "c++",
+    icon: cpp,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+];
+
+const database = [
+
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+];
+
+const cloud = [
+
+
+  {
+    name: "MongoDB",
+    icon: aws,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Git /GitHub",
+    icon: git,
+  },
+];
+
+
+
+
+const experiences = [
+  {
+    title: "Looking Forward to My First Industry Internship",
+    company_name: "",
+    icon: logo_sk,
+    iconBg: "#383E56",
+    date: "Present",
+    points: [
+      "Although I haven’t had a formal internship yet, I have been actively building real-world projects to strengthen my development skills. From creating responsive user interfaces to developing full-stack applications using React, Node.js, and MongoDB, I am continuously preparing myself to contribute effectively in a professional environment.",
+
+      "I am eager to explore internship opportunities where I can learn, grow, collaborate with a team, and build impactful, real-world solutions."],
+  },
+  // {
+  //   title: "r",
+  //   company_name: "shubham company",
+  //   icon: logo_sk,
+  //   iconBg: "#383E56",
+  //   date: "March 2020 - April 2021",
+  //   points: [ "hwfh w4f g3  fg34 g 4thg 4h5t g45 g45g4 5g4 5g 45g4t5  h544 5h 56h 53h 45 h5 h 5yh "],
+  // },
+];
+
+
+
+
+
+
+
+
+
+
+const CodingProfile = [
+  {
+    name: "GeeksForGeeks",
+    username: "shubhamkr145",
+    link: "https://www.geeksforgeeks.org/user/shubhamkr145/",
+    image: geeksforgeeks,
+    achievements: [
+      {
+        Rank: "214(Institute Rank)",
+        problem: "275",
+      },
+    ],
+  },
+  {
+    name: "LeetCode",
+    username: "shubham-kumar145",
+    link: "https://leetcode.com/u/shubham-kumar145/",
+    image: leetcode,
+    achievements: [
+      {
+        Rank: "1578(contest rating)",
+        problem: "200",
+      },
+
+    ],
+  },
+  {
+    name: "CodeForce",
+    username: "shubham-kumar145",
+    link: "https://codeforces.com/profile/shubham-kumar145",
+    image: codeforce,
+    achievements: [
+      {
+        Rank: "max. newbie, 1154",
+        problem: "100",
+      },
+    ],
+  },
+
+  {
+    name: "CodeChef",
+    username: "shubham_kr145",
+    link: "https://www.codechef.com/users/shubham_kr145",
+    image: codechef,
+    achievements: [
+      {
+        Rank: "1457",
+        problem: "50",
+      },
+
+    ],
+  },
+]
+
+
+const MyclickPhoto = [
+  {
+    date: "12/05/2023",
+    place: "balachadi",
+    image: firstphoto,
+  },
+  {
+    date: "19/09/2023",
+    place: "bangalore",
+    image: "https://res.cloudinary.com/dejblby8o/image/upload/v1753784646/IMG_20231002_175757_wp6xmv.jpg",
+  },
+  {
+    date: "12/05/2023",
+    place: "bit mesra",
+    image: "https://res.cloudinary.com/dejblby8o/image/upload/v1753784624/IMG_20230921_212134_skf2pr.jpg",
+
+  },
+  {
+    date: "25/05/2022",
+    place: "bit mesra",
+    image: "https://res.cloudinary.com/dejblby8o/image/upload/v1753784586/IMG_20230905_214140_o6zrer.jpg",
+  },
+  {
+    date: "12/01/2023",
+    place: "balachadi",
+    image: "https://res.cloudinary.com/dejblby8o/image/upload/v1753784505/IMG_20230226_083423_snustn.jpg",
+  },
+  {
+    date: "12/05/2023",
+    place: "balachadi",
+    image: "https://res.cloudinary.com/dejblby8o/image/upload/v1753784466/IMG_20230208_080628_yssife.jpg",
+  },
+]
+
+
+
+
+
+const Achievements = [
+  {
+    name: "Class 10th Topper",
+    description: " i won the best thing in the world",
+    date: "29/01/2025",
+    items: [
+      {
+        id: 1,
+        img:flip,
+      },
+      // {
+      //   id: 2,
+      //   img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783509/profile3_ne54gu.png",
+      // },
+      // {
+      //   id: 3,
+      //   img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783509/profile1_bvsebo.png",
+      // },
+      // {
+      //   id: 4,
+      //   img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783821/profile4_nrhyx3.png",
+      // },
+    ],
+  },
+];
+
+
+
+
+
+
+
+
+
+const projects = [
+  //  1
+  {
+    name: "Portfolio Website",
+    description:
+      "Designed and developed a fully responsive personal portfolio website using React and Tailwind CSS. Showcased projects, skills, and experience with a clean UI, smooth transitions, and interactive elements. Integrated 3D visuals using Three.js to enhance user engagement and demonstrate modern frontend development practices.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TAILWIND",
+        color: "green-text-gradient",
+      },
+      {
+        name: "THREE JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "REACT",
+        color: "orange-text-gradient",
+      },
+    ],
+    link: "",
+    item: [
+      {
+        id: 1,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783511/profile2_kqkxil.png",
+      },
+      {
+        id: 2,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783509/profile3_ne54gu.png",
+      },
+      {
+        id: 3,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783509/profile1_bvsebo.png",
+      },
+      {
+        id: 4,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783821/profile4_nrhyx3.png",
+      },
+    ],
+    source_code_link: "https://github.com/shubham-kumar145/Portfolio-sk",
+  },
+  // 2
+  {
+    name: "CODE PRACTICE (CodeBeast)",
+    description:
+      "Developed a full-stack coding platform with JWT-based authentication and role-based access control for admin and users. Built admin workflows for problem creation and management, enabled real-time code execution and submission using Judge0 API, integrated an AI-powered support chatbot, and implemented premium content access with secure subscription-based payments.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TAILWIND",
+        color: "green-text-gradient",
+      },
+      {
+        name: "REACT",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Node js",
+        color: "pink-text-gradient",
+      },
+    ],
+    link: "",
+    item: [
+      {
+        id: 1,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753786384/Screenshot_2025-07-29_161554_enr9uk.png",
+      },
+      {
+        id: 2,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753786383/Screenshot_2025-07-29_161517_ezzkzu.png",
+      },
+      {
+        id: 3,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753786384/Screenshot_2025-07-29_161622_hou4bo.png",
+      },
+    ],
+    source_code_link: "https://github.com/shubham-kumar145/CodeBeast-sk",
+  },
+  //3
+  {
+    name: "E Commerce Website (SWA)",
+    description:
+      "Developed a full-stack E-Commerce platform with JWT and cookie-based authentication, featuring separate admin and user panels. Admins can add, update, and manage products in real-time. Integrated a secure login system, role-based access, and a responsive UI for seamless inventory and user management.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TAILWIND",
+        color: "green-text-gradient",
+      },
+      {
+        name: "REACT",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Node js",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    link: "",
+    item: [
+      {
+        id: 1,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788080/Screenshot_2025-07-29_164512_ktl9ej.png",
+      },
+      {
+        id: 2,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788079/Screenshot_2025-07-29_164538_ekcpdu.png",
+      },
+      {
+        id: 3,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164600_h3v6uk.png",
+      },
+      {
+        id: 4,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164617_vm3boi.png",
+      },
+      {
+        id: 5,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164854_uggkge.png",
+      },
+      {
+        id: 6,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164812_og8ves.png",
+      },
+    ],
+    source_code_link: "https://github.com/shubham-kumar145/Smartstocker-sk",
+  },
+  {
+    name: "To do list",
+    description:
+      "Developed a modern task management web application using React and Tailwind CSS. Implemented features such as task creation, completion tracking, importance marking, calendar-based organization, and daily reminders. Integrated focus tools and UI customization with persistent data storage using browser local storage for a fast and seamless user experience.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TAILWIND",
+        color: "green-text-gradient",
+      },
+      {
+        name: "REACT",
+        color: "yellow-text-gradient",
+      },
+    ],
+    link: "",
+    item: [
+      {
+        id: 1,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788080/Screenshot_2025-07-29_164512_ktl9ej.png",
+      },
+      {
+        id: 2,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788079/Screenshot_2025-07-29_164538_ekcpdu.png",
+      },
+      {
+        id: 3,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164600_h3v6uk.png",
+      },
+      {
+        id: 4,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164617_vm3boi.png",
+      },
+      {
+        id: 5,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164854_uggkge.png",
+      },
+      {
+        id: 6,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164812_og8ves.png",
+      },
+    ],
+    source_code_link: "https://github.com/shubham-kumar145/Smartstocker-sk",
+  },
+  //4
+  {
+    name: "weather webside",
+    description:
+      "Built a real-time weather application using OpenWeatherMap API that displays current weather conditions, temperature, and location-based data. Integrated dynamic UI updates and responsive design with React and Tailwind CSS. Enables users to search cities worldwide and view live forecasts with icons, humidity, and wind speed indicators.",
+
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JAVASCRIPT",
+        color: "pink-text-gradient",
+      },
+    ],
+    link: "",
+    item: [
+      {
+        id: 1,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783810/weather1_f5znfg.png",
+      },
+      {
+        id: 2,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783809/weather2_tdszgv.png",
+      },
+    ],
+    source_code_link: "https://github.com/shubham-kumar145/Weather-sk",
+  },
+  //5
+  {
+    name: "Astrolgy",
+    description:
+      "Astrology web app where users enter their name and birthdate to discover their zodiac sign and receive personalized predictions. Features real-time zodiac calculation, a responsive interface, and a cosmic-themed design. Strengthened core frontend skills through dynamic content updates, and intuitive user experience.",
+
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JAVASCRIPT",
+        color: "pink-text-gradient",
+      },
+    ],
+    link: "",
+    item: [
+      {
+        id: 1,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783760/astrology1_ifdqps.png",
+      },
+      {
+        id: 2,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783764/astrology2_gbqzub.png",
+      },
+    ],
+    source_code_link: "https://github.com/shubham-kumar145/astrolgy-sk",
+  },
+  // 6
+  {
+    name: "Tic Tac toe",
+    description:
+      "A classic Tic Tac Toe game built with HTML, CSS, and JavaScript. Features real-time gameplay, turn-based logic, win/tie detection, and a reset option. Designed with a clean and responsive UI for smooth user interaction. Strengthened logical thinking and DOM manipulation through hands-on game development.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JAVASCRIPT",
+        color: "pink-text-gradient",
+      },
+    ],
+    link: "",
+    item: [
+      {
+        id: 1,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753784217/tic3_kmgyju.png",
+      },
+      {
+        id: 2,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753784218/tic1_drzrm0.png",
+      },
+      {
+        id: 3,
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753784217/tic2_qzwdih.png",
+      },
+    ],
+    source_code_link: "https://github.com/shubham-kumar145/Tic-Tak-Toe-sk",
+  },
+
+];
+
+export { services, technologies, experiences, CodingProfile, MyclickPhoto, projects, Achievements, database, cloud };
