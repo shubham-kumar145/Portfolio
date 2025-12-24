@@ -17,9 +17,17 @@ The portfolio introduces who I am, what I work on, and how I think as a develope
 - **React.js** – Component-based frontend architecture  
 - **Tailwind CSS** – Modern, responsive, and utility-first styling  
 - **Three.js / React Three Fiber** – Interactive 3D visuals and animations  
-- **JavaScript (ES6+)**  
+- **JavaScript**  
 - **EmailJS** – Contact form email integration  
-- **Vercel** – Deployment and hosting  
+- **Vercel** – Deployment and hosting
+##
+![React](https://img.shields.io/badge/React-18-blue)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.0-38BDF8)
+![Three.js](https://img.shields.io/badge/Three.js-3D-black)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![Vercel](https://img.shields.io/badge/Deployed-Vercel-black)
+
+ 
 
 ---
 
