@@ -1,1 +1,107 @@
-# Portfolio
+# 🚀 Personal Portfolio Website — Shubham Kumar
+
+🔗 **Live Website:** https://shubham-portfolio-145.vercel.app/
+
+---
+
+## 📌 About the Portfolio
+
+This is my personal developer portfolio website designed to showcase my **projects, skills, experience, and coding journey** in a visually engaging and interactive way. The website reflects my passion for building meaningful web experiences, clean UI design, and modern frontend development.
+
+The portfolio introduces who I am, what I work on, and how I think as a developer. It highlights my journey from learning fundamentals to building full-stack applications, competitive programming practice, and real-world projects. The site also provides an easy way for visitors to contact me and share feedback directly via email.
+
+---
+
+## 🛠️ Tech Stack Used
+
+- **React.js** – Component-based frontend architecture  
+- **Tailwind CSS** – Modern, responsive, and utility-first styling  
+- **Three.js / React Three Fiber** – Interactive 3D visuals and animations  
+- **JavaScript (ES6+)**  
+- **EmailJS** – Contact form email integration  
+- **Vercel** – Deployment and hosting  
+
+---
+
+## ✨ Key Features
+
+### 🎨 Modern UI & Design
+- Clean, dark-themed interface with smooth gradients
+- Polished typography and animations
+- Responsive layout optimized for desktop, tablet, and mobile
+
+---
+
+### 🧍 About & Experience Sections
+- Personal introduction and background
+- Clear explanation of skills, interests, and development journey
+- Highlight of MERN stack expertise and frontend focus
+
+---
+
+### 🛠️ Skills & Roles Showcase
+- Visual cards highlighting:
+  - MERN Stack Developer
+  - Frontend Developer
+  - Backend Developer
+  - Photographer (creative side)
+- Emphasis on both technical and creative skills
+
+---
+
+### 📂 Projects Section
+- Interactive project cards with smooth horizontal navigation
+- Each project includes:
+  - Description
+  - Tech stack used
+  - Visual previews
+- Showcases real-world and full-stack projects
+
+---
+
+### 🧠 Coding Journey & Learning
+- Story-driven section explaining how coding started
+- Focus on problem-solving, DSA, and competitive programming
+- Highlights experience with:
+  - LeetCode
+  - GeeksforGeeks
+  - Competitive programming contests
+
+---
+
+### 🌍 3D Visual Elements
+- Interactive 3D scenes using Three.js
+- Enhances visual engagement without hurting performance
+- Used selectively for better user experience
+
+---
+
+### ✉️ Contact & Feedback Section
+- Dedicated contact form for visitors
+- Users can send:
+  - Suggestions
+  - Feedback
+  - Collaboration requests
+- Messages are delivered directly via email using EmailJS
+
+---
+
+## ⚡ Performance & Best Practices
+- Fast load times with optimized assets
+- Clean, reusable, component-driven code structure
+- Focus on accessibility and smooth user interaction
+
+---
+
+## 🎯 Purpose of the Website
+- Showcase my technical and creative skills
+- Present projects in a professional manner
+- Share my learning journey and growth
+- Provide an easy way to connect and collaborate
+
+---
+
+## 👨‍💻 Author
+
+**Shubham Kumar**  
+MERN Developer 
