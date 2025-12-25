@@ -90,10 +90,6 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -107,12 +103,6 @@ const technologies = [
     icon: threejs,
     mobileIcon: threejsmobile,
   },
-
-
-  // {
-  //   name: "c",
-  //   icon: c,
-  // },
   {
     name: "c++",
     icon: cpp,
@@ -142,10 +132,6 @@ const cloud = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
   {
     name: "Redux Toolkit",
     icon: redux,
@@ -481,27 +467,39 @@ const projects = [
     item: [
       {
         id: 1,
-        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788080/Screenshot_2025-07-29_164512_ktl9ej.png",
+        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1766634495/home2_iq1kzu.png",
       },
       {
         id: 2,
-        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788079/Screenshot_2025-07-29_164538_ekcpdu.png",
+        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1766634511/tastadd1_k2ltfb.png",
       },
       {
         id: 3,
-        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164600_h3v6uk.png",
+        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1766634491/calendar1_ejee01.png",
       },
       {
         id: 4,
-        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164617_vm3boi.png",
+        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1766634477/taskadd3_cqsd7t.png",
       },
       {
         id: 5,
-        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164854_uggkge.png",
+        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1766634493/Focus2_d0ve7x.png",
       },
       {
         id: 6,
-        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788078/Screenshot_2025-07-29_164812_og8ves.png",
+        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1766634495/calendar4_dokezm.png",
+      },
+      {
+        id: 7,
+        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1766634537/setting1_eocvvm.png",
+      },
+      {
+        id: 8,
+        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1766634477/alltask3_mvr2wv.png",
+      },
+      {
+        id: 9,
+        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1766634507/Focus5_qidrqo.png",
       },
     ],
     source_code_link: "https://github.com/shubham-kumar145/Smartstocker-sk",
