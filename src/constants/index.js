@@ -336,7 +336,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    link: "",
+    link: "https://shubham-portfolio-145.vercel.app/",
     status: "complete",
     item: [
       {
@@ -365,7 +365,7 @@ const projects = [
       },
       
     ],
-    source_code_link: "https://github.com/shubham-kumar145/Portfolio-sk",
+    source_code_link: "https://github.com/shubham-kumar145/Portfolio",
   },
   // 2
   {
