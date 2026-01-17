@@ -22,7 +22,7 @@ const socials = [
   },
   {
   icon: Mail,
-  link: "https://mail.google.com/mail/?view=cm&to=shubhamkr5923@gmail.com",
+  link: "https://mail.google.com/mail/?view=cm&to=contact@shubhamkumar.me",
   },
 ];
 const ServiceCard = ({ index, title, icon }) => (
