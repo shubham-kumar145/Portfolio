@@ -1,6 +1,6 @@
 # 🚀 Personal Portfolio Website — Shubham Kumar
 
-🔗 **Live Website:** https://shubham-portfolio-145.vercel.app/
+🔗 **Live Website:** https://shubhamkumar.me/
 
 ---
 
