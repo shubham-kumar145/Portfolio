@@ -12,6 +12,13 @@ The portfolio introduces who I am, what I work on, and how I think as a develope
 
 ---
 
+
+https://github.com/user-attachments/assets/b39b17f5-2fd7-48d9-b95a-265e33b88957
+
+
+---
+
+
 ## 🛠️ Tech Stack Used
 
 - **React.js** – Component-based frontend architecture  
