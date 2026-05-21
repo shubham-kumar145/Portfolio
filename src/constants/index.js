@@ -398,49 +398,7 @@ const projects = [
   // ── AI / ML / DL Projects ─────────────────────────────────
 
   // ML 1
-  {
-    name: "SPAM EMAIL DETECTOR",
-    type: "ml",
-    category: "AI / NLP",
-    description:
-      "AI-powered spam email detection web application built using Machine Learning and NLP techniques. Implemented TF-IDF vectorization with a K-Nearest Neighbors (KNN) classifier to analyze and classify email content in real time. Features confidence score prediction, text preprocessing, tokenization, and lightweight Streamlit deployment for fast and interactive usage.",
-    tags: [
-      { name: "PYTHON", color: "blue-text-gradient" },
-      { name: "ML", color: "green-text-gradient" },
-      { name: "NLP", color: "pink-text-gradient" },
-    ],
-    link: "https://spams-detector.streamlit.app/",
-    status: "complete",
-    item: [
-      { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779180356/1_i19qbe.png", },
-      { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779180356/3_rrqobx.png", },
-      { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779180356/2_vkviz7.png", },
-    ],
-    source_code_link: "https://github.com/shubham-kumar145/Spam-Detector",
-  },
-
-  {
-    name: "STROKE RISK PREDICTOR",
-    type: "ml",
-    category: "HEALTHCARE AI",
-    description:
-      "Machine Learning-based healthcare prediction system that analyzes patient health parameters to estimate stroke and heart disease risk in real time. Built using a K-Nearest Neighbors (KNN) model with feature scaling, interactive Streamlit UI, probability-based prediction scoring, and instant risk analysis visualization.",
-    tags: [
-      { name: "PYTHON", color: "blue-text-gradient" },
-      { name: "ML", color: "green-text-gradient" },
-      { name: "STREAMLIT", color: "pink-text-gradient" },
-    ],
-    link: "https://stroke-risk--predictor.streamlit.app/",
-    status: "complete",
-    item: [
-      { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179840/2_jk3oqq.png", },
-      { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179840/1_zmtse5.png", },
-      { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179841/3_dvthuo.png", },
-    ],
-    source_code_link: "https://github.com/shubham-kumar145/stroke-risk-predictor",
-  },
-
-  {
+   {
     name: "CINEMATCH",
     type: "ml",
     category: "MOVIE RECOMMENDATION AI",
@@ -463,6 +421,50 @@ const projects = [
     ],
     source_code_link: "https://github.com/shubham-kumar145/movie-recommendation",
   },
+  //ML 2
+  {
+    name: "SPAM EMAIL DETECTOR",
+    type: "ml",
+    category: "AI / NLP",
+    description:
+      "AI-powered spam email detection web application built using Machine Learning and NLP techniques. Implemented TF-IDF vectorization with a K-Nearest Neighbors (KNN) classifier to analyze and classify email content in real time. Features confidence score prediction, text preprocessing, tokenization, and lightweight Streamlit deployment for fast and interactive usage.",
+    tags: [
+      { name: "PYTHON", color: "blue-text-gradient" },
+      { name: "ML", color: "green-text-gradient" },
+      { name: "NLP", color: "pink-text-gradient" },
+    ],
+    link: "https://spams-detector.streamlit.app/",
+    status: "complete",
+    item: [
+      { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779180356/1_i19qbe.png", },
+      { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779180356/3_rrqobx.png", },
+      { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779180356/2_vkviz7.png", },
+    ],
+    source_code_link: "https://github.com/shubham-kumar145/Spam-Detector",
+  },
+  //ML 3
+  {
+    name: "STROKE RISK PREDICTOR",
+    type: "ml",
+    category: "HEALTHCARE AI",
+    description:
+      "Machine Learning-based healthcare prediction system that analyzes patient health parameters to estimate stroke and heart disease risk in real time. Built using a K-Nearest Neighbors (KNN) model with feature scaling, interactive Streamlit UI, probability-based prediction scoring, and instant risk analysis visualization.",
+    tags: [
+      { name: "PYTHON", color: "blue-text-gradient" },
+      { name: "ML", color: "green-text-gradient" },
+      { name: "STREAMLIT", color: "pink-text-gradient" },
+    ],
+    link: "https://stroke-risk--predictor.streamlit.app/",
+    status: "complete",
+    item: [
+      { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179840/2_jk3oqq.png", },
+      { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179840/1_zmtse5.png", },
+      { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179841/3_dvthuo.png", },
+    ],
+    source_code_link: "https://github.com/shubham-kumar145/stroke-risk-predictor",
+  },
+
+ 
 
   // {
   //   name: "ALGOARENA",
