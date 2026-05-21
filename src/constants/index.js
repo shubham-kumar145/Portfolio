@@ -440,29 +440,29 @@ const projects = [
     source_code_link: "https://github.com/shubham-kumar145/stroke-risk-predictor",
   },
 
-  {
-    name: "CINEMATCH",
-    type: "ml",
-    category: "MOVIE RECOMMENDATION AI",
-    description:
-      "AI-powered movie recommendation system that suggests similar movies using content-based filtering and cosine similarity. Built with Python, Streamlit, and Machine Learning, featuring a premium cinematic UI, dynamic TMDB poster integration, responsive interactive design, and real-time personalized movie recommendations.",
-    tags: [
-      { name: "PYTHON", color: "blue-text-gradient" },
-      { name: "ML", color: "green-text-gradient" },
-      { name: "cosine-similarity", color: "pink-text-gradient" },
-    ],
-    link: "https://movie-recommendation-145.streamlit.app/",
-    status: "complete",
-    item: [
-      { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/1_yarvx3.png", },
-      { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357541/2_lnjqxg.png", },
-      { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357541/3_jiqa3v.png", },
-      { id: 4, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/4_o0sgls.png", },
-      { id: 5, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/5_fxrwje.png", },
-      { id: 6, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/6_uarroh.png", },
-    ],
-    source_code_link: "https://github.com/shubham-kumar145/movie-recommendation",
-  },
+  // {
+  //   name: "CINEMATCH",
+  //   type: "ml",
+  //   category: "MOVIE RECOMMENDATION AI",
+  //   description:
+  //     "AI-powered movie recommendation system that suggests similar movies using content-based filtering and cosine similarity. Built with Python, Streamlit, and Machine Learning, featuring a premium cinematic UI, dynamic TMDB poster integration, responsive interactive design, and real-time personalized movie recommendations.",
+  //   tags: [
+  //     { name: "PYTHON", color: "blue-text-gradient" },
+  //     { name: "ML", color: "green-text-gradient" },
+  //     { name: "cosine-similarity", color: "pink-text-gradient" },
+  //   ],
+  //   link: "https://movie-recommendation-145.streamlit.app/",
+  //   status: "complete",
+  //   item: [
+  //     { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/1_yarvx3.png", },
+  //     { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357541/2_lnjqxg.png", },
+  //     { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357541/3_jiqa3v.png", },
+  //     { id: 4, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/4_o0sgls.png", },
+  //     { id: 5, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/5_fxrwje.png", },
+  //     { id: 6, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/6_uarroh.png", },
+  //   ],
+  //   source_code_link: "https://github.com/shubham-kumar145/movie-recommendation",
+  // },
 
   // {
   //   name: "ALGOARENA",
