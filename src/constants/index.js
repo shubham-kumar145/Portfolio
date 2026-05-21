@@ -449,18 +449,19 @@ const projects = [
     tags: [
       { name: "PYTHON", color: "blue-text-gradient" },
       { name: "ML", color: "green-text-gradient" },
-      { name: "STREAMLIT", color: "pink-text-gradient" },
+      { name: "cosine-similarity", color: "pink-text-gradient" },
     ],
-    link: "https://your-streamlit-app-link.streamlit.app/",
+    link: "https://movie-recommendation-145.streamlit.app/",
     status: "complete",
     item: [
-      { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179111/movie_rec1_tddstf.png", },
-      { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179113/movie_rec3_vgdkk9.png", },
-      { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179113/movie_rec5_hcmzgg.png", },
-      { id: 4, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179112/movie_rec2_dnp79y.png", },
-      { id: 5, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779179111/movie_rec4_iepjye.png", },
+      { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/1_yarvx3.png", },
+      { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357541/2_lnjqxg.png", },
+      { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357541/3_jiqa3v.png", },
+      { id: 4, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/4_o0sgls.png", },
+      { id: 5, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/5_fxrwje.png", },
+      { id: 6, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1779357540/6_uarroh.png", },
     ],
-    source_code_link: "https://github.com/shubham-kumar145/movie-recommender-system",
+    source_code_link: "https://github.com/shubham-kumar145/movie-recommendation",
   },
 
   // {
