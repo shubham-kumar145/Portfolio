@@ -23,12 +23,9 @@ function buildCodeLines(data) {
     push(`    score: "${edu.score}",`, [{ t: "pl", v: "    " }, { t: "prop", v: "score" }, { t: "pl", v: ": " }, { t: "score", v: `"${edu.score}"` }, { t: "pl", v: "," }]);
     push(`    status: "${edu.status}",`, [{ t: "pl", v: "    " }, { t: "prop", v: "status" }, { t: "pl", v: ": " }, { t: edu.status === "ongoing" ? "green" : "purple", v: `"${edu.status}"` }, { t: "pl", v: "," }]);
     push(i < data.length - 1 ? `  },` : `  }`, [{ t: "pl", v: i < data.length - 1 ? "  }," : "  }" }]);
-    // if (i < data.length - 1) push(``, []);
   });
 
   push(`];`, [{ t: "pl", v: "];" }]);
-  // push(``, []);
-  // push(`// render → <Education />`, [{ t: "comment", v: "// render → <Education />" }]);
   push(`export default Education;`, [{ t: "kw", v: "export default " }, { t: "score", v: "Education" }, { t: "pl", v: ";" }]);
   return lines;
 }
