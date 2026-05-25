@@ -116,7 +116,24 @@ https://github.com/user-attachments/assets/b39b17f5-2fd7-48d9-b95a-265e33b88957
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Shubham Kumar**  
-MERN Developer 
+## Shubham Kumar
+- MERN Stack Developer
+- Frontend Developer
+- Problem Solver
+- Competitive Programmer
+
+---
+
+## 🔗 Connect With Me
+
+- 🌐 Portfolio: https://shubhamkumar.me
+- 💼 LinkedIn: https://www.linkedin.com/in/shubham-kumar145/
+- 💻 GitHub: https://github.com/shubham-kumar145
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
