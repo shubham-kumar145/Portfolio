@@ -283,7 +283,7 @@ const projects = [
       { name: "React", color: "green-text-gradient" },
       { name: "Tailwind", color: "pink-text-gradient" },
     ],
-    link: "https://projectcomingsoon-sigma.vercel.app/",
+    link: "https://logic-ai-five.vercel.app/",
     status: "",
     item: [
       { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1767107155/4_y94uvw.jpg" },
