@@ -168,7 +168,7 @@ const CodingProfile = [
     image: colelio,
     achievements: [
       {
-        problem: "800+ DSA Problems",
+        problem: "1000+ DSA Problems",
       },
     ],
   },
@@ -192,7 +192,7 @@ const CodingProfile = [
     achievements: [
       {
         Rank: "1578(contest rating)",
-        problem: "400+",
+        problem: "500+",
       },
     ],
   },
