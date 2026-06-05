@@ -369,7 +369,7 @@ const projects = [
     { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652267/Screenshot_2026-06-05_145952_z1whtm.png" },
   ],
   source_code_link: "https://github.com/shubham-kumar145/Chatting",
-}
+},
   
   //6
 
