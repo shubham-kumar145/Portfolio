@@ -265,10 +265,11 @@ const projects = [
     link: "https://shubhamkumar.me/",
     status: "complete",
     item: [
-      { id: 1, img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783511/profile2_kqkxil.png" },
-      { id: 2, img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783509/profile3_ne54gu.png" },
-      { id: 3, img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783509/profile1_bvsebo.png" },
-      { id: 4, img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753783821/profile4_nrhyx3.png" },
+      { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652083/Screenshot_2026-06-05_142737_qb7yfx.png" },
+      { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652083/Screenshot_2026-06-05_142823_zpr7cc.png" },
+      { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652082/Screenshot_2026-06-05_143610_fsvs3b.png" },
+      { id: 4, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652082/Screenshot_2026-06-05_143636_ortvzi.png" },
+      { id: 5, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652083/Screenshot_2026-06-05_145816_ibyoon.png" },
     ],
     source_code_link: "https://github.com/shubham-kumar145/Portfolio",
   },
@@ -350,6 +351,29 @@ const projects = [
   // 5
 
   {
+  name: "Chatting",
+  type: "web",
+  category: "REAL-TIME CHAT APPLICATION",
+  description:
+    "A full-stack real-time chat application built with React, Node.js, Express, MongoDB, and Socket.io. Features secure JWT authentication, instant messaging, online/offline user presence tracking, protected APIs, and a modern responsive interface for seamless communication across devices.",
+  tags: [
+    { name: "REACT", color: "blue-text-gradient" },
+    { name: "NODE JS", color: "green-text-gradient" },
+    { name: "MONGODB", color: "pink-text-gradient" },
+  ],
+  link: "https://chatting-frontend-wine.vercel.app/",
+  status: "complete",
+  item: [
+    { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652267/Screenshot_2026-06-05_150024_cvbhgx.png" },
+    { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652268/Screenshot_2026-06-05_150100_ctvvwa.png" },
+    { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652267/Screenshot_2026-06-05_145952_z1whtm.png" },
+  ],
+  source_code_link: "https://github.com/shubham-kumar145/Chatting",
+}
+  
+  //6
+
+  {
     name: "To do list",
     type: "web",
     category: "PRODUCTIVITY",
@@ -375,6 +399,7 @@ const projects = [
     ],
     source_code_link: "https://github.com/shubham-kumar145/To-Do-List",
   },
+        //7
   {
     name: "Weather Website",
     type: "web",
@@ -463,7 +488,28 @@ const projects = [
     ],
     source_code_link: "https://github.com/shubham-kumar145/stroke-risk-predictor",
   },
-
+        // 4
+{
+  name: "IPL Score Predictor",
+  type: "ml",
+  category: "MACHINE LEARNING",
+  description:
+    "AI-powered IPL First Innings Score Prediction system built using Machine Learning and CatBoost Regression. Trained on 76,000+ historical IPL records to predict final innings totals based on live match conditions, venue, team combinations, wickets, and recent momentum. Features score range estimation, run-rate projection, confidence indicators, intelligent input validation, and an interactive IPL-themed Streamlit dashboard.",
+  tags: [
+    { name: "PYTHON", color: "blue-text-gradient" },
+    { name: "CATBOOST", color: "green-text-gradient" },
+    { name: "STREAMLIT", color: "pink-text-gradient" },
+  ],
+  link: "https://ipl-predictor-145.streamlit.app/",
+  status: "complete",
+  item: [
+    { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652611/Screenshot_2026-06-05_151202_qtnedt.png" },
+    { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652611/Screenshot_2026-06-05_151217_mnfyxl.png" },
+    { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652612/Screenshot_2026-06-05_151254_wnp9pt.png" },
+    { id: 4, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1780652612/Screenshot_2026-06-05_151305_lv4gra.png" },
+  ],
+  source_code_link: "https://github.com/shubham-kumar145/IPL-PREDICTOR",
+},
  
 
   // {
