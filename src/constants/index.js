@@ -203,8 +203,8 @@ const CodingProfile = [
     image: codechef,
     achievements: [
       {
-        Rank: "1472(DSA Rating)",
-        Rank: "1479(CodeChef Rating)",
+        Rank: "1617(DSA Rating) & 1479(CodeChef Rating)",
+        // problem: "1479(CodeChef Rating)",
       },
     ],
   },
