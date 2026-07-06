@@ -196,18 +196,18 @@ const CodingProfile = [
       },
     ],
   },
-  {
-    name: "CodeChef",
-    username: "shubham_kr145",
-    link: "https://www.codechef.com/users/shubham_kr145",
-    image: codechef,
-    achievements: [
-      {
-        Rank: "1617(DSA Rating) & 1479(CodeChef Rating)",
-        // problem: "1479(CodeChef Rating)",
-      },
-    ],
-  },
+  // {
+  //   name: "CodeChef",
+  //   username: "shubham_kr145",
+  //   link: "https://www.codechef.com/users/shubham_kr145",
+  //   image: codechef,
+  //   achievements: [
+  //     {
+  //       Rank: "1617(DSA Rating) & 1479(CodeChef Rating)",
+  //       // problem: "1479(CodeChef Rating)",
+  //     },
+  //   ],
+  // },
 ];
 
 const MyclickPhoto = [
