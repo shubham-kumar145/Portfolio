@@ -174,7 +174,7 @@ const ExperienceCard = ({ experience, index }) => {
       >
         <div className="flex items-start justify-between gap-3 flex-wrap">
           <div>
-            <h3 className="text-white text-[22px] font-bold font-sans tracking-tight">
+            <h3 className="text-yellow text-[22px] font-bold font-sans tracking-tight">
               {experience.title}
             </h3>
             <p
