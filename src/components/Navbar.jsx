@@ -27,7 +27,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className='w-full flex justify-center '>
+    <nav className='w-full flex justify-center mt-10'>
       <div className={`${styles.paddingX} w-[98%] rounded-3xl flex items-center py-3 fixed top-0 z-20 ${scrolled ? "bg-primary" : "bg-transparent"}`}>
         <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
 
