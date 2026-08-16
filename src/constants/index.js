@@ -149,15 +149,28 @@ const cloud = [
 ];
 
 const experiences = [
-  {
-    title: "looking forward to my first industry internship ",
-    company_name: "",
-    icon: logo_sk,
-    iconBg: "#383E56",
-    date: "Present",
-    points: [
-      "Although I haven't had a formal internship yet, I have been actively working on real-world projects to strengthen my development skills. From building responsive user interfaces to developing full-stack applications using React, Node.js, and MongoDB, I am continuously preparing myself to contribute effectively to a team. I am eager and open to internship opportunities where I can learn, grow, and build impactful solutions."],
-  },
+  // {
+  //   title: "looking forward to my first industry internship ",
+  //   company_name: "",
+  //   icon: logo_sk,
+  //   iconBg: "#383E56",
+  //   date: "Present",
+  //   points: [
+  //     "Although I haven't had a formal internship yet, I have been actively working on real-world projects to strengthen my development skills. From building responsive user interfaces to developing full-stack applications using React, Node.js, and MongoDB, I am continuously preparing myself to contribute effectively to a team. I am eager and open to internship opportunities where I can learn, grow, and build impactful solutions."],
+  // },
+{
+  title: "Deep Learning-Based Neural Receiver Research Intern",
+  company_name: "Birla Institute of Technology, Mesra",
+  icon: "https://res.cloudinary.com/dejblby8o/image/upload/v1786896361/download_rebyje.jpg",
+  iconBg: "#383E56",
+  date: "Jun 2026 – Jul 2026",
+  points: [
+    "Completed the BIT-SIPAR 2026 Summer Internship for Advanced Research under Dr. Shubham Anand, developing a deep learning-based end-to-end OFDM communication framework using Sionna and TensorFlow/Keras.",
+    "Developed a neural receiver to replace conventional channel estimation, equalization, and symbol detection blocks, enabling unified data-driven signal recovery.",
+    "Generated simulated OFDM datasets across varying SNR and channel conditions, trained the receiver using Adam and Binary Cross-Entropy, and evaluated performance using BER and BLER metrics.",
+  ],
+},
+
 ];
 
 const CodingProfile = [
