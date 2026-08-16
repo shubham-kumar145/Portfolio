@@ -170,18 +170,18 @@ const experiences = [
     "Generated simulated OFDM datasets across varying SNR and channel conditions, trained the receiver using Adam and Binary Cross-Entropy, and evaluated performance using BER and BLER metrics.",
   ],
 },
-  {
-  title: "Software Engineer Intern",
-  company_name: "Ardent Software",
-  icon: logo_ardent,
-  iconBg: "#383E56",
-  date: "May 2026 – Jul 2026",
-  points: [
-    "Developed a full-stack E-Commerce Platform using the MERN stack (MongoDB, Express.js, React.js, and Node.js) as part of industrial training in full-stack web development.",
-    "Built responsive and reusable React.js components and implemented core e-commerce workflows across frontend and backend modules.",
-    "Integrated REST APIs with MongoDB and worked on feature development, debugging, testing, and end-to-end application integration."
-  ],
-},
+//   {
+//   title: "Software Engineer Intern",
+//   company_name: "Ardent Software",
+//   icon: logo_ardent,
+//   iconBg: "#383E56",
+//   date: "May 2026 – Jul 2026",
+//   points: [
+//     "Developed a full-stack E-Commerce Platform using the MERN stack (MongoDB, Express.js, React.js, and Node.js) as part of industrial training in full-stack web development.",
+//     "Built responsive and reusable React.js components and implemented core e-commerce workflows across frontend and backend modules.",
+//     "Integrated REST APIs with MongoDB and worked on feature development, debugging, testing, and end-to-end application integration."
+//   ],
+// },
 
 ];
 
