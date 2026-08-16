@@ -385,6 +385,31 @@ const projects = [
     ],
     source_code_link: "https://github.com/shubham-kumar145/Stylish_Wear_Aesthetics",
   },
+  {
+  name: "RentalHub",
+  type: "web",
+  category: "VEHICLE RENTAL",
+  description:
+    "Full-stack multi-vendor vehicle rental platform with JWT + cookie-based authentication, role-based access control, vehicle and shop management, booking workflows, Stripe payments, Cloudinary image uploads, reviews, and secure REST APIs.",
+  tags: [
+    { name: "REACT", color: "blue-text-gradient" },
+    { name: "TAILWIND", color: "green-text-gradient" },
+    { name: "NODE JS", color: "yellow-text-gradient" },
+    { name: "EXPRESS JS", color: "pink-text-gradient" },
+    { name: "MONGODB", color: "blue-text-gradient" },
+    { name: "STRIPE", color: "green-text-gradient" },
+  ],
+  link: "https://rental-hub-gilt.vercel.app/",
+  status: "complete",
+  item: [
+    // Add your RentalHub screenshots here
+    { id: 1, img: "https://res.cloudinary.com/dejblby8o/image/upload/v1786902264/Screenshot_2026-08-16_230926_ennqwo.png" },
+    { id: 2, img: "https://res.cloudinary.com/dejblby8o/image/upload/v1786902264/Screenshot_2026-08-16_230926_ennqwo.png" },
+    { id: 3, img: "https://res.cloudinary.com/dejblby8o/image/upload/v1786902264/Screenshot_2026-08-16_230926_ennqwo.png" },
+    { id: 4, img: "https://res.cloudinary.com/dejblby8o/image/upload/v1786902264/Screenshot_2026-08-16_230926_ennqwo.png" },
+  ],
+  source_code_link: "https://github.com/shubham-kumar145/Rental-Hub",
+},
   // 5
 
   {
