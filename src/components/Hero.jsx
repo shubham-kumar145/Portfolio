@@ -39,7 +39,7 @@ const Hero = () => {
           <div className="w-[110px] h-[110px] sm:w-[130px] sm:h-[130px] rounded-full overflow-hidden border-2 border-[#915EFF] shadow-[0_0_18px_rgba(145,94,255,0.5)]">
             <img
               src={workspaceImg}
-              alt="Ayushi"
+              alt="Shubham"
               className="w-full h-full object-cover object-top"
             />
           </div>
@@ -119,7 +119,7 @@ const Hero = () => {
                   <div className="w-[200px] h-[200px] rounded-full overflow-hidden border-2 border-[#915EFF] shadow-[0_0_18px_rgba(145,94,255,0.5)]">
                     <img
                       src={workspaceImg}
-                      alt="Ayushi"
+                      alt="Shubham"
                       className="w-full h-full object-cover object-top"
                     />
                   </div>
