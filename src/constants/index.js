@@ -238,7 +238,7 @@ const Achievements = [
     items: [
       {
         id: 1,
-        img: "YOUR_IMAGE_URL",
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1786895329/ncc_mine_kmuzj7.jpg",
       },
     ],
   },
@@ -250,7 +250,7 @@ const Achievements = [
     items: [
       {
         id: 1,
-        img: "https://drive.google.com/file/d/1rG5s2HDQE4hU-Cd_EF2aFDg6LbiVnyZv/preview",
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1786895581/1768712926617_vz7bsx.jpg",
       },
     ],
   },
