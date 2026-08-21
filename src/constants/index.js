@@ -267,7 +267,8 @@ const Achievements = [
       },
       {
         id: 2,
-        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1787332417/WhatsApp_Image_2026-08-21_at_13.44.10_lwntig.jpg",
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1787332834/copy_of_whatsapp_image_2026-08-21_at_134410_lwntig.jpg",
+        // img: "https://res.cloudinary.com/dejblby8o/image/upload/v1787332417/WhatsApp_Image_2026-08-21_at_13.44.10_lwntig.jpg",
       },
     ],
   },
