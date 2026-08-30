@@ -26,7 +26,9 @@ It highlights major full-stack projects, coding achievements, technical skills, 
 
 ---
 
-https://github.com/user-attachments/assets/b39b17f5-2fd7-48d9-b95a-265e33b88957
+https://github.com/user-attachments/assets/ceacc875-617f-43e6-b636-9511feeb38ac
+
+
 
 # ✨ Key Features
 
