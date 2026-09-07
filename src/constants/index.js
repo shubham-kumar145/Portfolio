@@ -378,7 +378,7 @@ const projects = [
       { name: "REACT", color: "yellow-text-gradient" },
       { name: "Node js", color: "pink-text-gradient", },
     ],
-    link: "https://swa-shopping.vercel.app/",
+    link: "https://stylish-wear-aesthetics-ctjc.vercel.app/",
     status: "complete",
     item: [
       { id: 1, img: "https://res.cloudinary.com/dejblby8o/image/upload/v1753788080/Screenshot_2025-07-29_164512_ktl9ej.png" },
