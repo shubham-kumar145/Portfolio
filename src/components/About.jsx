@@ -228,8 +228,47 @@ const About = () => {
 
             {/* TEXT BLOCK */}
             <div className="w-full lg:w-[65%] pr-0">
-
               <p className="text-lg leading-8 text-justify font-serif">
+                Hi, I’m{" "}
+                <span className="font-semibold text-yellow-300">Shubham Kumar</span>, a{" "}
+                <span className="font-semibold text-pink-300">full-stack developer</span>{" "}
+                and final-year Electronics and Communication Engineering student at{" "}
+                <span className="font-semibold text-yellow-300">BIT Mesra</span> (Batch 2027). I build{" "}
+                <span className="font-semibold text-violet-300">
+                  secure, high-performance web applications
+                </span>{" "}
+                with the MERN stack, and I’ve shipped live products used by{" "}
+                <span className="font-semibold text-green-300">300+ users</span>, including an online
+                judge where I cut API response time by{" "}
+                <span className="font-semibold text-green-300">92%</span> using Redis caching.
+              </p>
+              
+              <p className="text-lg leading-8 mt-4 text-justify font-serif">
+                I’ve completed two internships: as a{" "}
+                <span className="font-semibold text-violet-300">Full Stack Developer Intern</span> at
+                Ardent Computech, building 20+ REST APIs with JWT authentication and role-based access
+                control, and as a{" "}
+                <span className="font-semibold text-violet-300">Research Intern</span> at BIT Mesra,
+                where I built a deep learning receiver for wireless systems that achieved about a 3 dB
+                gain over the classical baseline. Outside of work, I’m a{" "}
+                <span className="font-semibold text-yellow-300">LeetCode Knight</span> (top 6%) with
+                980+ problems solved and a{" "}
+                <span className="font-semibold text-green-300">GSSoC open-source contributor</span>. I
+                enjoy turning hard problems into clean, scalable, and maintainable solutions.
+              </p>
+              
+              <p className="text-lg leading-8 mt-4 text-justify font-serif">
+                <span className="font-semibold text-yellow-300">Key Skills & Technologies:</span>{" "}
+                <span className="font-semibold text-violet-300">React</span>,{" "}
+                <span className="font-semibold text-violet-300">Node.js</span>,{" "}
+                <span className="font-semibold text-blue-300">JavaScript</span>, TypeScript, Express.js,
+                MongoDB, MySQL, Redis, REST APIs, JWT,{" "}
+                <span className="font-semibold text-blue-300">C++</span>,{" "}
+                <span className="font-semibold text-blue-300">Python</span>, TensorFlow, Docker, Git,
+                Tailwind CSS, Data Structures & Algorithms.
+              </p>
+
+              {/* <p className="text-lg leading-8 text-justify font-serif">
                 Hi, I’m{" "}
                 <span className="font-semibold text-yellow-300">Shubham Kumar</span> — a{" "}
                 <span className="font-semibold text-pink-300">
@@ -274,7 +313,7 @@ const About = () => {
                 <span className="font-semibold text-blue-300">JavaScript</span>, HTML,
                 CSS, Node.js, REST APIs, MongoDB, Git, Responsive Web Design, UI/UX
                 Optimization, Agile Development Practices.
-              </p>
+              </p> */}
 
               {/* BUTTONS ROW */}
               <div className="flex flex-col-reverse sm:flex-row sm:justify-between sm:items-center">
