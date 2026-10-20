@@ -196,8 +196,8 @@ const ServiceCard = ({ index, title, icon, badge }) => (
 /* ─── About ──────────────────────────────────────────────────────────────── */
 const About = () => {
   const drivelink =
-    // "https://drive.google.com/uc?export=download&id=1iJirYbEHqTgPTv-wLPPIJm4_rgAD9wwG";
-    "https://drive.google.com/uc?export=download&id=1Bz3VT5O-A84pC1kG7sKGKx3b2X4vAcbD";
+    "https://drive.google.com/uc?export=download&id=1ARjCI2yuLoXTbyE2YKBpoayZz9fBzSjc";
+    // "https://drive.google.com/uc?export=download&id=1Bz3VT5O-A84pC1kG7sKGKx3b2X4vAcbD";
 
   const [viewwhich, setViewwhich] = useState(false);
 
