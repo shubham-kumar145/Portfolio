@@ -357,27 +357,15 @@ const MyclickPhoto = [
 // ];
 
 const Achievements = [
-  {
-    name: "Smart India Hackathon – Top 5",
+    {
+    name: "NCC 'C' Certificate (Alpha Grade)",
     description:
-      "Ranked in the Top 5 among 50+ teams in the Smart India Hackathon internal round at BIT Mesra, designing and presenting a technical solution to a real-world problem statement under strict time constraints.",
-    date: "YEAR",
+      "Awarded the NCC 'C' Certificate with Alpha Grade, the highest grade, after completing advanced National Cadet Corps training in leadership, discipline, teamwork, drill, weapon training, and national service. Demonstrated consistent commitment and performance across multiple NCC camps and organizational activities.",
+    date: "2024",
     items: [
       {
         id: 1,
-        img: "YOUR_SIH_PHOTO_OR_CERTIFICATE_URL",
-      },
-    ],
-  },
-  {
-    name: "GSSoC '25 & '26 Open Source Contributor",
-    description:
-      "Selected as a Technical Contributor for GirlScript Summer of Code (GSSoC), a nationally recognized open-source program, in both 2025 and 2026. Contributed features and bug fixes to open-source projects by understanding large codebases, following contribution guidelines, and collaborating with maintainers through GitHub issues, pull requests, and code reviews.",
-    date: "2025 – 2026",
-    items: [
-      {
-        id: 1,
-        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1767102764/gssoc_xjzkgj.png",
+        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1786895581/1768712926617_vz7bsx.jpg",
       },
     ],
   },
@@ -398,17 +386,35 @@ const Achievements = [
     ],
   },
   {
-    name: "NCC 'C' Certificate (Alpha Grade)",
+    name: "Smart India Hackathon – Top 5",
     description:
-      "Awarded the NCC 'C' Certificate with Alpha Grade, the highest grade, after completing advanced National Cadet Corps training in leadership, discipline, teamwork, drill, weapon training, and national service. Demonstrated consistent commitment and performance across multiple NCC camps and organizational activities.",
-    date: "2024",
+      "Ranked in the Top 5 among 50+ teams in the Smart India Hackathon internal round at BIT Mesra, designing and presenting a technical solution to a real-world problem statement under strict time constraints.",
+    date: "YEAR",
     items: [
       {
         id: 1,
-        img: "https://res.cloudinary.com/dejblby8o/image/upload/v1786895581/1768712926617_vz7bsx.jpg",
+        img: "YOUR_SIH_PHOTO_OR_CERTIFICATE_URL",
       },
     ],
   },
+  {
+    name: "GSSoC '25 & '26 Open Source Contributor",
+    description:
+      "Selected as a Technical Contributor for GirlScript Summer of Code (GSSoC), a nationally recognized open-source program, in both 2025 and 2026. Contributed features and bug fixes to open-source projects by understanding large codebases, following contribution guidelines, and collaborating with maintainers through GitHub issues, pull requests, and code reviews.",
+    date: "2025 – 2026",
+    items: [
+      {
+        id: 1,
+        img: "https://drive.google.com/file/d/1K6Q_VhdQA3-4SwgglMPQrS4rjnq6kBzW/view",
+        id: 1,
+        img: "https://drive.google.com/file/d/1WfygGp25sQKiikLJYRCcjuiBKFUicom6/view",
+        id: 1,
+        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1767102764/gssoc_xjzkgj.png",
+      },
+    ],
+  },
+  
+
 ];
 const projects = [
 
@@ -776,7 +782,7 @@ const certificationsData = [
     title: "Research Internship – Deep Learning for Wireless Systems",
     topics: ["Deep Learning", "TensorFlow", "OFDM", "Sionna"],
     date: "Jun 2026 – Jul 2026",
-    file: "https://drive.google.com/file/d/1emK71ldfTy8rZjh-CzvfJ-YSmbEiKbrz/preview",
+    file: "https://drive.google.com/file/d/19EySUZLGGdqVG5Wm9AYvKawkIAHMmk96/view?usp=sharing",
     icon: "🔬",
   },
   {
