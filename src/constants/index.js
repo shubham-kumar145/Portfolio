@@ -159,27 +159,28 @@ const experiences = [
   //     "Although I haven't had a formal internship yet, I have been actively working on real-world projects to strengthen my development skills. From building responsive user interfaces to developing full-stack applications using React, Node.js, and MongoDB, I am continuously preparing myself to contribute effectively to a team. I am eager and open to internship opportunities where I can learn, grow, and build impactful solutions."],
   // },
 {
-  title: "Deep Learning-Based Neural Receiver Research Intern",
-  company_name: "Birla Institute of Technology, Mesra",
-  icon: "https://res.cloudinary.com/dejblby8o/image/upload/v1786896361/download_rebyje.jpg",
-  iconBg: "#383E56",
-  date: "Jun 2026 – Jul 2026",
-  points: [
-    "Completed the BIT-SIPAR 2026 Summer Internship for Advanced Research under Dr. Shubham Anand, developing a deep learning-based end-to-end OFDM communication framework using Sionna and TensorFlow/Keras.",
-    "Developed a neural receiver to replace conventional channel estimation, equalization, and symbol detection blocks, enabling unified data-driven signal recovery.",
-    "Generated simulated OFDM datasets across varying SNR and channel conditions, trained the receiver using Adam and Binary Cross-Entropy, and evaluated performance using BER and BLER metrics.",
-  ],
-},
-  {
-  title: "Software Engineer Intern",
-  company_name: "Ardent Software",
+  title: "Full Stack Developer Intern (MERN)",
+  company_name: "Ardent Computech Pvt. Ltd.",
   icon: "https://res.cloudinary.com/dejblby8o/image/upload/v1786897873/download_1_n6jnjl.jpg",
   iconBg: "#383E56",
   date: "May 2026 – Jul 2026",
   points: [
-    "Developed a full-stack E-Commerce Platform using the MERN stack (MongoDB, Express.js, React.js, and Node.js) as part of industrial training in full-stack web development.",
-    "Built responsive and reusable React.js components and implemented core e-commerce workflows across frontend and backend modules.",
-    "Integrated REST APIs with MongoDB and worked on feature development, debugging, testing, and end-to-end application integration."
+    "Built a multi-vendor e-commerce platform using the MERN stack (MongoDB, Express.js, React.js, Node.js), developing 20+ REST APIs and database schemas for products, inventory, carts, and order tracking.",
+    "Implemented role-based access control across 4 user roles (Admin, Staff, Seller, User), JWT authentication over HTTP-only cookies, and Redis-backed session validation for secure logout.",
+    "Built responsive, reusable React.js components for role-specific dashboards and sales analytics, connected to the backend through REST APIs.",
+    "Worked in a 5-member Agile team on feature development, debugging, testing, and end-to-end integration, using Git workflows and code reviews.",
+  ],
+},
+  {
+  title: "Research Intern (Deep Learning)",
+  company_name: "BIT Mesra (BIT-SIPAR 2026), Dept. of ECE",
+   icon: "https://res.cloudinary.com/dejblby8o/image/upload/v1786896361/download_rebyje.jpg",
+  iconBg: "#E6DEDD",
+  date: "Jun 2026 – Jul 2026",
+  points: [
+    "Built a deep learning neural receiver for OFDM wireless systems in Python using TensorFlow, Keras, and Sionna.",
+    "Replaced three classical signal-processing stages (channel estimation, equalization, and detection) with a single trained model.",
+    "Generated simulation data, then trained and evaluated the model across SNR ranges, achieving about a 3 dB gain over the LS baseline and a BER of 2.4 × 10⁻⁴ at 0 dB.",
   ],
 },
 
@@ -204,35 +205,35 @@ const CodingProfile = [
     image: geeksforgeeks,
     achievements: [
       {
-        Rank: "173(Institute Rank)",
-        problem: "300+",
+        Rank: "88(Institute Rank)",
+        problem: "400+",
       },
     ],
   },
   {
-    name: "LeetCode",
-    username: "shubham-kumar145",
-    link: "https://leetcode.com/u/shubham-kumar145/",
-    image: leetcode,
-    achievements: [
-      {
-        Rank: "1578(contest rating)",
-        problem: "700+",
-      },
-    ],
-  },
-  // {
-  //   name: "CodeChef",
-  //   username: "shubham_kr145",
-  //   link: "https://www.codechef.com/users/shubham_kr145",
-  //   image: codechef,
-  //   achievements: [
-  //     {
-  //       Rank: "1617(DSA Rating) & 1479(CodeChef Rating)",
-  //       // problem: "1479(CodeChef Rating)",
-  //     },
-  //   ],
-  // },
+  name: "LeetCode",
+  username: "Shubham_k_r",
+  link: "https://leetcode.com/u/Shubham_k_r/",
+  image: leetcode,
+  achievements: [
+    {
+      Rank: "Knight | 1864 (Top 5.96%)",
+      problem: "400+",
+    },
+  ],
+},
+  {
+  name: "Codeforces",
+  username: "shubham-kumar-145",
+  link: "https://codeforces.com/profile/shubham-kumar-145",
+  image: codeforce,
+  achievements: [
+    {
+      Rank: "Pupil | 1207 (Codeforces Rating)",
+      problem: "400+",
+    },
+  ],
+},
 ];
 
 const MyclickPhoto = [
@@ -243,11 +244,68 @@ const MyclickPhoto = [
   },
 ];
 
+// const Achievements = [
+//   {
+//     name: "GSSoC 25",
+//     description: " Technical Contributor – GSSoC'25:Selected as a Technical Contributor for a nationally recognized open-source program, actively onboarding to large-scale projects, understanding codebases, workflows, and contribution guidelines while preparing to contribute using Git/GitHub and industry-standard development practices.",
+//     date: "29/01/2025",
+//     items: [
+//       {
+//         id: 1,
+//         img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1767102764/gssoc_xjzkgj.png",
+//       },
+//     ],
+//   },
+//   {
+//     name: "President, NCC BIT Mesra",
+//     description:
+//       "Leading NCC activities and cadet coordination at BIT Mesra as President, managing discipline, event execution, team collaboration, and leadership initiatives. Actively involved in organizing training sessions, social outreach programs, and representing the unit in institutional activities while strengthening communication, leadership, and management skills.",
+//     date: "2024-2025",
+//     items: [
+//       {
+//         id: 1,
+//         img: "https://res.cloudinary.com/dejblby8o/image/upload/v1786895329/ncc_mine_kmuzj7.jpg",
+//       },
+//       {
+//         id: 2,
+//         img: "https://res.cloudinary.com/dejblby8o/image/upload/v1787332834/copy_of_whatsapp_image_2026-08-21_at_134410_lwntig.jpg",
+//         // img: "https://res.cloudinary.com/dejblby8o/image/upload/v1787332417/WhatsApp_Image_2026-08-21_at_13.44.10_lwntig.jpg",
+//       },
+//     ],
+//   },
+//   {
+//     name: "NCC 'C' Certificate (Alpha Grade)",
+//     description:
+//       "Awarded the prestigious NCC 'C' Certificate with Alpha Grade after successfully completing advanced National Cadet Corps training focused on leadership, discipline, teamwork, drill, weapon training, and national service activities. Demonstrated strong commitment, responsibility, and performance throughout multiple NCC camps and organizational activities.",
+//     date: "2024",
+//     items: [
+//       {
+//         id: 1,
+//         img: "https://res.cloudinary.com/dejblby8o/image/upload/v1786895581/1768712926617_vz7bsx.jpg",
+//       },
+//     ],
+//   },
+
+// ];
+
 const Achievements = [
   {
-    name: "GSSoC 25",
-    description: " Technical Contributor – GSSoC'25:Selected as a Technical Contributor for a nationally recognized open-source program, actively onboarding to large-scale projects, understanding codebases, workflows, and contribution guidelines while preparing to contribute using Git/GitHub and industry-standard development practices.",
-    date: "29/01/2025",
+    name: "Smart India Hackathon – Top 5",
+    description:
+      "Ranked in the Top 5 among 50+ teams in the Smart India Hackathon internal round at BIT Mesra, designing and presenting a technical solution to a real-world problem statement under strict time constraints.",
+    date: "YEAR",
+    items: [
+      {
+        id: 1,
+        img: "YOUR_SIH_PHOTO_OR_CERTIFICATE_URL",
+      },
+    ],
+  },
+  {
+    name: "GSSoC '25 & '26 Open Source Contributor",
+    description:
+      "Selected as a Technical Contributor for GirlScript Summer of Code (GSSoC), a nationally recognized open-source program, in both 2025 and 2026. Contributed features and bug fixes to open-source projects by understanding large codebases, following contribution guidelines, and collaborating with maintainers through GitHub issues, pull requests, and code reviews.",
+    date: "2025 – 2026",
     items: [
       {
         id: 1,
@@ -258,8 +316,8 @@ const Achievements = [
   {
     name: "President, NCC BIT Mesra",
     description:
-      "Leading NCC activities and cadet coordination at BIT Mesra as President, managing discipline, event execution, team collaboration, and leadership initiatives. Actively involved in organizing training sessions, social outreach programs, and representing the unit in institutional activities while strengthening communication, leadership, and management skills.",
-    date: "2024-2025",
+      "Led the National Cadet Corps unit at BIT Mesra as President, coordinating 300+ cadets across training sessions, large-scale events, and social outreach programs. Managed discipline, event execution, and team coordination, and represented the unit in institutional activities, strengthening my leadership, communication, and management skills.",
+    date: "Jan 2025 – Aug 2026",
     items: [
       {
         id: 1,
@@ -268,14 +326,13 @@ const Achievements = [
       {
         id: 2,
         img: "https://res.cloudinary.com/dejblby8o/image/upload/v1787332834/copy_of_whatsapp_image_2026-08-21_at_134410_lwntig.jpg",
-        // img: "https://res.cloudinary.com/dejblby8o/image/upload/v1787332417/WhatsApp_Image_2026-08-21_at_13.44.10_lwntig.jpg",
       },
     ],
   },
   {
     name: "NCC 'C' Certificate (Alpha Grade)",
     description:
-      "Awarded the prestigious NCC 'C' Certificate with Alpha Grade after successfully completing advanced National Cadet Corps training focused on leadership, discipline, teamwork, drill, weapon training, and national service activities. Demonstrated strong commitment, responsibility, and performance throughout multiple NCC camps and organizational activities.",
+      "Awarded the NCC 'C' Certificate with Alpha Grade, the highest grade, after completing advanced National Cadet Corps training in leadership, discipline, teamwork, drill, weapon training, and national service. Demonstrated consistent commitment and performance across multiple NCC camps and organizational activities.",
     date: "2024",
     items: [
       {
@@ -284,9 +341,7 @@ const Achievements = [
       },
     ],
   },
-
 ];
-
 const projects = [
 
   // ── Web Dev Projects ──────────────────────────────────────
@@ -598,39 +653,92 @@ const projects = [
   // },
 ];
 
-const certificationsData = [
+// const certificationsData = [
 
+//   {
+//     id: 1,
+//     platform: "ALGOUNIVERSITY",
+//     issuer: "MANAS KUMAR VERMA",
+//     title: "Graph Theory Programming Camp",
+//     topics: ["Graph Theory", "Advanced Graph Problems", "DSA"],
+//     date: "2026",
+//     file: "https://drive.google.com/file/d/1Pn46KmLOPgRuIccpqLszenA05bzmUstE/preview",
+//     // fileName: "Graph_Theory_Certificate.pdf",
+//     icon: "🥇",
+//   },
+//   {
+//     id: 2,
+//     platform: "FORAGE",
+//     issuer: "SKYSCANNER",
+//     title: "Front-End Software Engineering Job Simulation",
+//     topics: ["React Web App", "Frontend Engineering", "Job Simulation"],
+//     date: "2026",
+//     file: "https://drive.google.com/file/d/1aP3VT5QqpW_-iAWdXQvqnAMUxAup1FJM/preview", // cert1,
+//     // fileName: "Skyscanner_FrontEnd_Certificate.png",
+//     icon: "🏆",
+//   },
+//   {
+//     id: 3,
+//     platform: "NATIONAL CADET CORPS",
+//     issuer: "MINISTRY OF DEFENCE, GOVERNMENT OF INDIA",
+//     title: "NCC Certificate 'C'",
+//     topics: ["Leadership", "Discipline", "Military Training"],
+//     date: "2024",
+//     file: "https://drive.google.com/file/d/1rG5s2HDQE4hU-Cd_EF2aFDg6LbiVnyZv/preview",
+//     // fileName: "Shubham_NCC_C_Certificate.pdf",
+//     icon: "🎖️",
+//   },
+// ];
+
+const certificationsData = [
   {
     id: 1,
+    platform: "ARDENT COMPUTECH PVT. LTD.",
+    issuer: "ARDENT COMPUTECH PVT. LTD.",
+    title: "Full Stack Developer Internship (MERN)",
+    topics: ["MERN Stack", "REST APIs", "JWT Authentication", "Redis"],
+    date: "May 2026 – Jul 2026",
+    file: "https://drive.google.com/file/d/1m4pACU4Jch5BkkJCOsXz7qO1fkgZ410n/preview",
+    icon: "💼",
+  },
+  {
+    id: 2,
+    platform: "BIT MESRA (BIT-SIPAR 2026)",
+    issuer: "DEPARTMENT OF ECE, BIT MESRA",
+    title: "Research Internship – Deep Learning for Wireless Systems",
+    topics: ["Deep Learning", "TensorFlow", "OFDM", "Sionna"],
+    date: "Jun 2026 – Jul 2026",
+    file: "https://drive.google.com/file/d/1emK71ldfTy8rZjh-CzvfJ-YSmbEiKbrz/preview",
+    icon: "🔬",
+  },
+  {
+    id: 3,
     platform: "ALGOUNIVERSITY",
-    issuer: "MANAS KUMAR VERMA",
+    issuer: "ALGOUNIVERSITY (Instructor: Manas Kumar Verma)",
     title: "Graph Theory Programming Camp",
     topics: ["Graph Theory", "Advanced Graph Problems", "DSA"],
     date: "2026",
     file: "https://drive.google.com/file/d/1Pn46KmLOPgRuIccpqLszenA05bzmUstE/preview",
-    // fileName: "Graph_Theory_Certificate.pdf",
     icon: "🥇",
   },
   {
-    id: 2,
+    id: 4,
     platform: "FORAGE",
     issuer: "SKYSCANNER",
     title: "Front-End Software Engineering Job Simulation",
-    topics: ["React Web App", "Frontend Engineering", "Job Simulation"],
+    topics: ["React.js", "Frontend Engineering", "Job Simulation"],
     date: "2026",
-    file: "https://drive.google.com/file/d/1aP3VT5QqpW_-iAWdXQvqnAMUxAup1FJM/preview", // cert1,
-    // fileName: "Skyscanner_FrontEnd_Certificate.png",
+    file: "https://drive.google.com/file/d/1aP3VT5QqpW_-iAWdXQvqnAMUxAup1FJM/preview",
     icon: "🏆",
   },
   {
-    id: 3,
+    id: 5,
     platform: "NATIONAL CADET CORPS",
     issuer: "MINISTRY OF DEFENCE, GOVERNMENT OF INDIA",
-    title: "NCC Certificate 'C'",
+    title: "NCC 'C' Certificate (Alpha Grade)",
     topics: ["Leadership", "Discipline", "Military Training"],
     date: "2024",
     file: "https://drive.google.com/file/d/1rG5s2HDQE4hU-Cd_EF2aFDg6LbiVnyZv/preview",
-    // fileName: "Shubham_NCC_C_Certificate.pdf",
     icon: "🎖️",
   },
 ];
@@ -641,7 +749,7 @@ const educationData = [
     degree: "B.Tech — Electronics & Communication Engineering",
     school: "Birla Institute of Technology, Mesra",
     location: "Ranchi, Jharkhand",
-    score: "7.84 / 10",
+    score: "7.86 / 10",
     scoreLabel: "CGPA",
     status: "ongoing",
     detail: "Core focus on Signal Processing, Embedded Systems & Software Engineering",
