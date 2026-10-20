@@ -393,7 +393,9 @@ const Achievements = [
     items: [
       {
         id: 1,
-        img: "YOUR_SIH_PHOTO_OR_CERTIFICATE_URL",
+        img: "https://drive.google.com/file/d/1hRxzii9VKdVf4qzSU_j1hXPEWfkyNpKX/view",
+        id: 2,
+        img: "https://drive.google.com/file/d/1hRxzii9VKdVf4qzSU_j1hXPEWfkyNpKX/view?usp=sharing",
       },
     ],
   },
@@ -406,9 +408,9 @@ const Achievements = [
       {
         id: 1,
         img: "https://drive.google.com/file/d/1K6Q_VhdQA3-4SwgglMPQrS4rjnq6kBzW/view",
-        id: 1,
+        id: 2,
         img: "https://drive.google.com/file/d/1WfygGp25sQKiikLJYRCcjuiBKFUicom6/view",
-        id: 1,
+        id: 3,
         img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1767102764/gssoc_xjzkgj.png",
       },
     ],
