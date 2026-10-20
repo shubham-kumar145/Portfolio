@@ -863,36 +863,69 @@ const certificationsData = [
   },
 ];
 
+// const educationData = [
+//   {
+//     period: "2023 — Present",
+//     degree: "B.Tech — Electronics & Communication Engineering",
+//     school: "Birla Institute of Technology, Mesra",
+//     location: "Ranchi, Jharkhand",
+//     score: "7.86 / 10",
+//     scoreLabel: "CGPA",
+//     status: "ongoing",
+//     detail: "Core focus on Signal Processing, Embedded Systems & Software Engineering",
+//   },
+//   {
+//     period: "2022-2023",
+//     degree: "Intermediate (Class XII) — CBSE",
+//     school: "Sainik School Balachadi",
+//     location: "Jamnagar, Gujarat",
+//     score: "78.4%",
+//     scoreLabel: "Percentage",
+//     status: "completed",
+//     detail: "Physics, Chemistry, Mathematics",
+//   },
+//   {
+//     period: "2020-2021",
+//     degree: "Matriculation (Class X) — CBSE",
+//     school: "Sainik School Balachadi",
+//     location: "Jamnagar, Gujarat",
+//     score: "87.2%",
+//     scoreLabel: "Percentage",
+//     status: "completed",
+//     detail: "General Subjects",
+//   },
+// ];
 const educationData = [
   {
-    period: "2023 — Present",
+    period: "Aug 2023 — May 2027 (Expected)",
     degree: "B.Tech — Electronics & Communication Engineering",
     school: "Birla Institute of Technology, Mesra",
     location: "Ranchi, Jharkhand",
     score: "7.86 / 10",
     scoreLabel: "CGPA",
     status: "ongoing",
-    detail: "Core focus on Signal Processing, Embedded Systems & Software Engineering",
+    detail:
+      "Relevant coursework: Data Structures & Algorithms, OOP, DBMS, Operating Systems, Computer Networks, Signals & Systems, Digital Electronics, Wireless Communication",
   },
   {
-    period: "2022-2023",
-    degree: "Intermediate (Class XII) — CBSE",
+    period: "2021 — 2023",
+    degree: "Senior Secondary (Class XII) — CBSE",
     school: "Sainik School Balachadi",
     location: "Jamnagar, Gujarat",
     score: "78.4%",
     scoreLabel: "Percentage",
     status: "completed",
-    detail: "Physics, Chemistry, Mathematics",
+    detail: "Physics, Chemistry, Mathematics (PCM) | Residential military school with NCC training",
   },
   {
-    period: "2020-2021",
-    degree: "Matriculation (Class X) — CBSE",
+    period: "2021",
+    degree: "Secondary (Class X) — CBSE",
     school: "Sainik School Balachadi",
     location: "Jamnagar, Gujarat",
     score: "87.2%",
     scoreLabel: "Percentage",
     status: "completed",
-    detail: "General Subjects",
+    detail: "Science, Mathematics, Social Science, English, Hindi",
   },
 ];
 
@@ -918,7 +951,7 @@ const lines = [
     ln: 5, tokens: [
       { c: "#f07178", t: "  Role" },
       { c: "#fff", t: ":    " },
-      { c: "#c3e88d", t: '"MERN Stack Developer"' },
+      { c: "#c3e88d", t: '"Full Stack Developer (MERN)"' },
       { c: "#89ddff", t: "," },
     ]
   },
@@ -942,7 +975,7 @@ const lines = [
     ln: 8, tokens: [
       { c: "#f07178", t: "  CGPA" },
       { c: "#fff", t: ":    " },
-      { c: "#f78c6c", t: "7.84" },
+      { c: "#f78c6c", t: "7.86" },
       { c: "#89ddff", t: "," },
     ]
   },
@@ -968,25 +1001,27 @@ const lines = [
       { c: "#fff", t: ", " },
       { c: "#c3e88d", t: '"Node.js"' },
       { c: "#fff", t: ", " },
-      { c: "#c3e88d", t: '"MongoDB"' },
+      { c: "#c3e88d", t: '"Express"' },
       { c: "#89ddff", t: "," },
     ]
   },
   {
     ln: 13, tokens: [
-      { c: "#c3e88d", t: '    "Express"' },
+      { c: "#c3e88d", t: '    "MongoDB"' },
       { c: "#fff", t: ", " },
       { c: "#c3e88d", t: '"Redis"' },
       { c: "#fff", t: ", " },
-      { c: "#c3e88d", t: '"Three.js"' },
+      { c: "#c3e88d", t: '"TypeScript"' },
       { c: "#89ddff", t: "," },
     ]
   },
   {
     ln: 14, tokens: [
-      { c: "#c3e88d", t: '    "Tailwind"' },
+      { c: "#c3e88d", t: '    "C++"' },
       { c: "#fff", t: ", " },
-      { c: "#c3e88d", t: '"REST APIs"' },
+      { c: "#c3e88d", t: '"Python"' },
+      { c: "#fff", t: ", " },
+      { c: "#c3e88d", t: '"TensorFlow"' },
     ]
   },
   { ln: 15, tokens: [{ c: "#89ddff", t: "  ]," }] },
@@ -998,53 +1033,219 @@ const lines = [
       { c: "#89ddff", t: "[" },
       { c: "#c3e88d", t: '"AlgoLeague"' },
       { c: "#fff", t: ", " },
-      { c: "#c3e88d", t: '" SWA "' },
+      { c: "#c3e88d", t: '"Stylish Wear"' },
       { c: "#89ddff", t: "," },
+    ]
+  },
+  {
+    ln: 18, tokens: [
+      { c: "#c3e88d", t: '    "RentalHub"' },
+      { c: "#fff", t: ", " },
       { c: "#c3e88d", t: '"LogixAI"' },
       { c: "#89ddff", t: "]," },
     ]
   },
-  { ln: 18, tokens: [] },
+  { ln: 19, tokens: [] },
   {
-    ln: 19, tokens: [
+    ln: 20, tokens: [
       { c: "#f07178", t: "  Achievements" },
       { c: "#fff", t: ": " },
       { c: "#89ddff", t: "[" },
     ]
   },
   {
-    ln: 20, tokens: [
-      { c: "#c3e88d", t: '    "800+ DSA Problems"' },
+    ln: 21, tokens: [
+      { c: "#c3e88d", t: '    "LeetCode Knight (Top 6%)"' },
       { c: "#fff", t: ", " },
-      { c: "#c3e88d", t: '"GSSoC Contributor"' },
+      { c: "#c3e88d", t: '"980+ DSA Problems"' },
       { c: "#89ddff", t: "," },
     ]
   },
   {
-    ln: 21, tokens: [
-      { c: "#c3e88d", t: '    "GFG Rank 160"' },
+    ln: 22, tokens: [
+      { c: "#c3e88d", t: '    "Codeforces Pupil"' },
+      { c: "#fff", t: ", " },
+      { c: "#c3e88d", t: '"CodeChef 2★"' },
+      { c: "#fff", t: ", " },
+      { c: "#c3e88d", t: '"GSSoC \'25 & \'26"' },
+      { c: "#89ddff", t: "," },
+    ]
+  },
+  {
+    ln: 23, tokens: [
+      { c: "#c3e88d", t: '    "GfG Institute Rank 88"' },
       { c: "#fff", t: ", " },
       { c: "#c3e88d", t: '"JEE Advanced Qualified"' },
     ]
   },
-  { ln: 22, tokens: [{ c: "#89ddff", t: "  ]," }] },
-  { ln: 23, tokens: [] },
+  { ln: 24, tokens: [{ c: "#89ddff", t: "  ]," }] },
+  { ln: 25, tokens: [] },
   {
-    ln: 24, tokens: [
+    ln: 26, tokens: [
       { c: "#f07178", t: "  Status" },
       { c: "#fff", t: ":  " },
-      { c: "#c3e88d", t: '"Open to Internships"' },
+      { c: "#c3e88d", t: '"Open to Internships & Full-time Roles"' },
       { c: "#89ddff", t: "," },
     ]
   },
-  { ln: 25, tokens: [{ c: "#89ddff", t: "})" }] },
+  { ln: 27, tokens: [{ c: "#89ddff", t: "})" }] },
   {
-    ln: 26, tokens: [
+    ln: 28, tokens: [
       { c: "#c792ea", t: "export default " },
       { c: "#FFD700", t: "Shubham" },
     ]
   },
 ];
+
+// const lines = [
+//   { ln: 1, tokens: [{ c: "#546e7a", s: true, t: "// Shubham.jsx" }] },
+//   { ln: 2, tokens: [] },
+//   {
+//     ln: 3, tokens: [
+//       { c: "#c792ea", t: "const " },
+//       { c: "#FFD700", t: "Shubham" },
+//       { c: "#89ddff", t: " = () => ({" },
+//     ]
+//   },
+//   {
+//     ln: 4, tokens: [
+//       { c: "#f07178", t: "  Name" },
+//       { c: "#fff", t: ":    " },
+//       { c: "#c3e88d", t: '"Shubham Kumar"' },
+//       { c: "#89ddff", t: "," },
+//     ]
+//   },
+//   {
+//     ln: 5, tokens: [
+//       { c: "#f07178", t: "  Role" },
+//       { c: "#fff", t: ":    " },
+//       { c: "#c3e88d", t: '"MERN Stack Developer"' },
+//       { c: "#89ddff", t: "," },
+//     ]
+//   },
+//   {
+//     ln: 6, tokens: [
+//       { c: "#f07178", t: "  College" },
+//       { c: "#fff", t: ": " },
+//       { c: "#c3e88d", t: '"BIT Mesra"' },
+//       { c: "#89ddff", t: "," },
+//     ]
+//   },
+//   {
+//     ln: 7, tokens: [
+//       { c: "#f07178", t: "  Degree" },
+//       { c: "#fff", t: ":  " },
+//       { c: "#c3e88d", t: '"B.Tech ECE"' },
+//       { c: "#89ddff", t: "," },
+//     ]
+//   },
+//   {
+//     ln: 8, tokens: [
+//       { c: "#f07178", t: "  CGPA" },
+//       { c: "#fff", t: ":    " },
+//       { c: "#f78c6c", t: "7.86" },
+//       { c: "#89ddff", t: "," },
+//     ]
+//   },
+//   {
+//     ln: 9, tokens: [
+//       { c: "#f07178", t: "  Graduation" },
+//       { c: "#fff", t: ": " },
+//       { c: "#f78c6c", t: "2027" },
+//       { c: "#89ddff", t: "," },
+//     ]
+//   },
+//   { ln: 10, tokens: [] },
+//   {
+//     ln: 11, tokens: [
+//       { c: "#f07178", t: "  Skills" },
+//       { c: "#fff", t: ": " },
+//       { c: "#89ddff", t: "[" },
+//     ]
+//   },
+//   {
+//     ln: 12, tokens: [
+//       { c: "#c3e88d", t: '    "React"' },
+//       { c: "#fff", t: ", " },
+//       { c: "#c3e88d", t: '"Node.js"' },
+//       { c: "#fff", t: ", " },
+//       { c: "#c3e88d", t: '"MongoDB"' },
+//       { c: "#89ddff", t: "," },
+//     ]
+//   },
+//   {
+//     ln: 13, tokens: [
+//       { c: "#c3e88d", t: '    "Express"' },
+//       { c: "#fff", t: ", " },
+//       { c: "#c3e88d", t: '"Redis"' },
+//       { c: "#fff", t: ", " },
+//       { c: "#c3e88d", t: '"Three.js"' },
+//       { c: "#89ddff", t: "," },
+//     ]
+//   },
+//   {
+//     ln: 14, tokens: [
+//       { c: "#c3e88d", t: '    "Tailwind"' },
+//       { c: "#fff", t: ", " },
+//       { c: "#c3e88d", t: '"REST APIs"' },
+//     ]
+//   },
+//   { ln: 15, tokens: [{ c: "#89ddff", t: "  ]," }] },
+//   { ln: 16, tokens: [] },
+//   {
+//     ln: 17, tokens: [
+//       { c: "#f07178", t: "  Projects" },
+//       { c: "#fff", t: ": " },
+//       { c: "#89ddff", t: "[" },
+//       { c: "#c3e88d", t: '"AlgoLeague"' },
+//       { c: "#fff", t: ", " },
+//       { c: "#c3e88d", t: '" SWA "' },
+//       { c: "#89ddff", t: "," },
+//       { c: "#c3e88d", t: '"LogixAI"' },
+//       { c: "#89ddff", t: "]," },
+//     ]
+//   },
+//   { ln: 18, tokens: [] },
+//   {
+//     ln: 19, tokens: [
+//       { c: "#f07178", t: "  Achievements" },
+//       { c: "#fff", t: ": " },
+//       { c: "#89ddff", t: "[" },
+//     ]
+//   },
+//   {
+//     ln: 20, tokens: [
+//       { c: "#c3e88d", t: '    "800+ DSA Problems"' },
+//       { c: "#fff", t: ", " },
+//       { c: "#c3e88d", t: '"GSSoC Contributor"' },
+//       { c: "#89ddff", t: "," },
+//     ]
+//   },
+//   {
+//     ln: 21, tokens: [
+//       { c: "#c3e88d", t: '    "GFG Rank 160"' },
+//       { c: "#fff", t: ", " },
+//       { c: "#c3e88d", t: '"JEE Advanced Qualified"' },
+//     ]
+//   },
+//   { ln: 22, tokens: [{ c: "#89ddff", t: "  ]," }] },
+//   { ln: 23, tokens: [] },
+//   {
+//     ln: 24, tokens: [
+//       { c: "#f07178", t: "  Status" },
+//       { c: "#fff", t: ":  " },
+//       { c: "#c3e88d", t: '"Open to Internships"' },
+//       { c: "#89ddff", t: "," },
+//     ]
+//   },
+//   { ln: 25, tokens: [{ c: "#89ddff", t: "})" }] },
+//   {
+//     ln: 26, tokens: [
+//       { c: "#c792ea", t: "export default " },
+//       { c: "#FFD700", t: "Shubham" },
+//     ]
+//   },
+// ];
 
 
 
