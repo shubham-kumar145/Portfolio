@@ -411,10 +411,10 @@ const Achievements = [
         id: 2,
         img: "https://drive.google.com/thumbnail?id=1WfygGp25sQKiikLJYRCcjuiBKFUicom6&sz=w1000",
       },
-      {
-        id: 3,
-        img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1767102764/gssoc_xjzkgj.png",
-      },
+      // {
+      //   id: 3,
+      //   img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1767102764/gssoc_xjzkgj.png",
+      // },
     ],
   },
 ];
@@ -427,8 +427,11 @@ const projects = [
     name: "PORTFOLIO WEBSITE",
     type: "web",
     category: "PORTFOLIO",
+    // description:
+    //   "Responsive personal portfolio built with React and Tailwind CSS, featuring reusable component architecture, optimised performance, and cross-browser compatibility. Integrates interactive 3D visuals via Three.js to demonstrate advanced frontend capability.",
     description:
-      "Responsive personal portfolio built with React and Tailwind CSS, featuring reusable component architecture, optimised performance, and cross-browser compatibility. Integrates interactive 3D visuals via Three.js to demonstrate advanced frontend capability.",
+  "Personal portfolio built with React and Tailwind CSS to showcase my projects, experience, coding profiles, and certifications. Uses a reusable component architecture with data-driven sections, so new projects or achievements can be added by editing a single config file. Features interactive 3D visuals with Three.js, smooth animations, and a fully responsive layout across devices.",
+
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
       { name: "TAILWIND", color: "green-text-gradient" },
@@ -450,8 +453,11 @@ const projects = [
     name: "LogixAI",
     type: "web",
     category: "AI PLATFORM",
+    // description:
+    //   "AI-powered web platform with a ChatGPT-style conversational assistant, a drag-and-drop website builder that outputs production-ready HTML/CSS/JS, and intelligent image tools for format conversion and background removal — all backed by secure API integration and optimised data pipelines.",
     description:
-      "AI-powered web platform with a ChatGPT-style conversational assistant, a drag-and-drop website builder that outputs production-ready HTML/CSS/JS, and intelligent image tools for format conversion and background removal — all backed by secure API integration and optimised data pipelines.",
+  "AI-powered web platform combining three tools in one place: a ChatGPT-style conversational assistant, a drag-and-drop website builder that exports clean HTML/CSS/JS, and image utilities for format conversion and background removal. Built with React and Tailwind CSS, integrating third-party AI APIs securely so users can chat, build, and edit without switching apps.",
+
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
       { name: "React", color: "green-text-gradient" },
@@ -475,8 +481,13 @@ const projects = [
     name: "Algo-league",
     type: "web",
     category: "COMPETITIVE CODING",
+    // description:
+    
+    //   "Full-stack competitive coding platform with JWT-based auth and RBAC for admin/user roles. Admins manage problems end-to-end; users write, execute, and submit code via Judge0 API. Features an AI support chatbot, Stripe-powered premium gating, and real-time submission evaluation.",
     description:
-      "Full-stack competitive coding platform with JWT-based auth and RBAC for admin/user roles. Admins manage problems end-to-end; users write, execute, and submit code via Judge0 API. Features an AI support chatbot, Stripe-powered premium gating, and real-time submission evaluation.",
+  "Full-stack competitive coding platform used by 300+ users across 200+ problems. Users write code in C++, Java, or JavaScript in a Monaco editor and get real-time verdicts as submissions run in isolated sandboxes against hidden test cases via the Judge0 API. Includes JWT authentication with role-based access (admins manage problems end to end), an AI support chatbot, and Stripe-powered premium access. Redis caching cut API response time from 60 ms to 5 ms (92%), with Redis-based rate limiting protecting code execution.",
+
+    
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
       { name: "TAILWIND", color: "green-text-gradient" },
@@ -501,8 +512,11 @@ const projects = [
     name: "Stylish-Wear-Aesthetics",
     type: "web",
     category: "E-COMMERCE",
+    // description:
+    //   "Production-grade e-commerce platform with JWT + cookie-based auth and RBAC. Separate admin and user dashboards support live product creation, updates, and inventory management — wrapped in a fully responsive, performance-optimised UI with protected routes throughout.",
     description:
-      "Production-grade e-commerce platform with JWT + cookie-based auth and RBAC. Separate admin and user dashboards support live product creation, updates, and inventory management — wrapped in a fully responsive, performance-optimised UI with protected routes throughout.",
+  "Full-stack e-commerce platform serving 300+ users with 200+ products, built on React, Node.js, Express, and MongoDB. Exposes 21 REST APIs covering products, inventory, cart, orders, and reviews, with JWT + HTTP-only cookie authentication and role-based authorization securing 8 admin routes. Separate admin and customer dashboards support live product management, filtered keyword search, order tracking, PayPal payments, and Cloudinary image uploads.",
+
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
       { name: "TAILWIND", color: "green-text-gradient" },
@@ -525,9 +539,13 @@ const projects = [
   name: "RentalHub",
   type: "web",
   category: "VEHICLE RENTAL",
-  description:
-    "Full-stack multi-vendor vehicle rental platform with JWT + cookie-based authentication, role-based access control, vehicle and shop management, booking workflows, Stripe payments, Cloudinary image uploads, reviews, and secure REST APIs.",
-  tags: [
+  // description:
+  //   "Full-stack multi-vendor vehicle rental platform with JWT + cookie-based authentication, role-based access control, vehicle and shop management, booking workflows, Stripe payments, Cloudinary image uploads, reviews, and secure REST APIs.",
+ description:
+  "Full-stack multi-vendor vehicle rental platform where shop owners list vehicles and customers browse, book, and pay online. Built with React, Node.js, Express, and MongoDB, featuring JWT + cookie-based authentication, role-based access for customers, vendors, and admins, and end-to-end booking workflows. Integrates Stripe for secure payments, Cloudinary for vehicle image uploads, and a review system, all served through secure REST APIs.",
+
+   
+   tags: [
     { name: "REACT", color: "blue-text-gradient" },
     { name: "TAILWIND", color: "green-text-gradient" },
     { name: "NODE JS", color: "yellow-text-gradient" },
@@ -552,8 +570,12 @@ const projects = [
     name: "Chatting",
     type: "web",
     category: "REAL-TIME CHAT APPLICATION",
-    description:
-      "A full-stack real-time chat application built with React, Node.js, Express, MongoDB, and Socket.io. Features secure JWT authentication, instant messaging, online/offline user presence tracking, protected APIs, and a modern responsive interface for seamless communication across devices.",
+    // description:
+    //   "A full-stack real-time chat application built with React, Node.js, Express, MongoDB, and Socket.io. Features secure JWT authentication, instant messaging, online/offline user presence tracking, protected APIs, and a modern responsive interface for seamless communication across devices.",
+   description:
+  "Real-time chat application built with React, Node.js, Express, MongoDB, and Socket.io. Messages are delivered instantly over WebSockets, with live online/offline presence so users can see who is available. Secured with JWT authentication and protected APIs, and wrapped in a clean, responsive interface that works across desktop and mobile.",
+
+    
     tags: [
       { name: "REACT", color: "blue-text-gradient" },
       { name: "NODE JS", color: "green-text-gradient" },
@@ -572,8 +594,11 @@ const projects = [
     name: "To do list",
     type: "web",
     category: "PRODUCTIVITY",
+    // description:
+    //   "Developed a modern task management web application using React and Tailwind CSS. Implemented features such as task creation, completion tracking, importance marking, calendar-based organization, and daily reminders. Integrated focus tools and UI customization with persistent data storage using browser local storage for a fast and seamless user experience.",
     description:
-      "Developed a modern task management web application using React and Tailwind CSS. Implemented features such as task creation, completion tracking, importance marking, calendar-based organization, and daily reminders. Integrated focus tools and UI customization with persistent data storage using browser local storage for a fast and seamless user experience.",
+  "Task management app built with React and Tailwind CSS for organizing daily work. Users can create tasks, mark them important or complete, plan them on a calendar view, and set daily reminders. Includes a built-in focus timer and theme customization, with all data saved in browser local storage so tasks persist instantly without sign-up.",
+
     tags: [
       { name: "HTML", color: "blue-text-gradient", },
       { name: "TAILWIND", color: "green-text-gradient", },
@@ -599,8 +624,12 @@ const projects = [
     name: "Weather Website",
     type: "web",
     category: "WEATHER APP",
-    description:
-      "Real-time weather app powered by the OpenWeatherMap API, displaying live temperature, humidity, and wind data with city-based search. Uses React state-driven rendering, conditional weather icons, and Tailwind CSS for a responsive, device-agnostic layout.",
+    // description:
+    //   "Real-time weather app powered by the OpenWeatherMap API, displaying live temperature, humidity, and wind data with city-based search. Uses React state-driven rendering, conditional weather icons, and Tailwind CSS for a responsive, device-agnostic layout.",
+   description:
+  "Real-time weather app powered by the OpenWeatherMap API, showing live temperature, humidity, and wind speed for any city. Users search by city name and get instant results with weather-specific icons that change with conditions. Built with a responsive layout that adapts cleanly from mobile to desktop.",
+
+    
     tags: [
       { name: "HTML", color: "blue-text-gradient" },
       { name: "CSS", color: "green-text-gradient" },
@@ -622,8 +651,12 @@ const projects = [
     name: "CINEMATCH",
     type: "ml",
     category: "MOVIE RECOMMENDATION AI",
+    // description:
+    //   "AI-powered movie recommendation system that suggests similar movies using content-based filtering and cosine similarity. Built with Python, Streamlit, and Machine Learning, featuring a premium cinematic UI, dynamic TMDB poster integration, responsive interactive design, and real-time personalized movie recommendations.",
+    
     description:
-      "AI-powered movie recommendation system that suggests similar movies using content-based filtering and cosine similarity. Built with Python, Streamlit, and Machine Learning, featuring a premium cinematic UI, dynamic TMDB poster integration, responsive interactive design, and real-time personalized movie recommendations.",
+  "Movie recommendation system that suggests similar films using content-based filtering. Movie metadata (genres, keywords, cast, and crew) is converted into feature vectors, and cosine similarity ranks the closest matches in real time. Deployed with Streamlit behind a cinematic, responsive UI that fetches live movie posters from the TMDB API.",
+
     tags: [
       { name: "PYTHON", color: "blue-text-gradient" },
       { name: "ML", color: "green-text-gradient" },
@@ -646,8 +679,12 @@ const projects = [
     name: "SPAM EMAIL DETECTOR",
     type: "ml",
     category: "AI / NLP",
+    // description:
+    //   "AI-powered spam email detection web application built using Machine Learning and NLP techniques. Implemented TF-IDF vectorization with a K-Nearest Neighbors (KNN) classifier to analyze and classify email content in real time. Features confidence score prediction, text preprocessing, tokenization, and lightweight Streamlit deployment for fast and interactive usage.",
+  
     description:
-      "AI-powered spam email detection web application built using Machine Learning and NLP techniques. Implemented TF-IDF vectorization with a K-Nearest Neighbors (KNN) classifier to analyze and classify email content in real time. Features confidence score prediction, text preprocessing, tokenization, and lightweight Streamlit deployment for fast and interactive usage.",
+  "NLP-based spam detection app that classifies email text as spam or legitimate in real time. The text pipeline covers cleaning, tokenization, and TF-IDF vectorization, feeding a K-Nearest Neighbors (KNN) classifier that returns a prediction with a confidence score. Deployed as a lightweight Streamlit web app for instant, interactive testing.",
+
     tags: [
       { name: "PYTHON", color: "blue-text-gradient" },
       { name: "ML", color: "green-text-gradient" },
@@ -667,8 +704,12 @@ const projects = [
     name: "STROKE RISK PREDICTOR",
     type: "ml",
     category: "HEALTHCARE AI",
+    // description:
+    //   "Machine Learning-based healthcare prediction system that analyzes patient health parameters to estimate stroke and heart disease risk in real time. Built using a K-Nearest Neighbors (KNN) model with feature scaling, interactive Streamlit UI, probability-based prediction scoring, and instant risk analysis visualization.",
     description:
-      "Machine Learning-based healthcare prediction system that analyzes patient health parameters to estimate stroke and heart disease risk in real time. Built using a K-Nearest Neighbors (KNN) model with feature scaling, interactive Streamlit UI, probability-based prediction scoring, and instant risk analysis visualization.",
+  "Healthcare ML app that estimates a patient's stroke and heart disease risk from health parameters such as age, blood pressure, glucose level, and BMI. Preprocesses data with feature scaling and uses a K-Nearest Neighbors (KNN) model to output a probability-based risk score. Deployed on Streamlit with an interactive form and instant risk visualization.",
+
+    
     tags: [
       { name: "PYTHON", color: "blue-text-gradient" },
       { name: "ML", color: "green-text-gradient" },
@@ -688,8 +729,11 @@ const projects = [
     name: "IPL Score Predictor",
     type: "ml",
     category: "MACHINE LEARNING",
+    // description:
+    //   "AI-powered IPL First Innings Score Prediction system built using Machine Learning and CatBoost Regression. Trained on 76,000+ historical IPL records to predict final innings totals based on live match conditions, venue, team combinations, wickets, and recent momentum. Features score range estimation, run-rate projection, confidence indicators, intelligent input validation, and an interactive IPL-themed Streamlit dashboard.",
+    
     description:
-      "AI-powered IPL First Innings Score Prediction system built using Machine Learning and CatBoost Regression. Trained on 76,000+ historical IPL records to predict final innings totals based on live match conditions, venue, team combinations, wickets, and recent momentum. Features score range estimation, run-rate projection, confidence indicators, intelligent input validation, and an interactive IPL-themed Streamlit dashboard.",
+  "Machine learning system that predicts an IPL team's final first-innings score from live match conditions. Trained a CatBoost regression model on 76,000+ historical ball-by-ball records, using venue, batting and bowling teams, current score, wickets, and recent-over momentum as features. The Streamlit dashboard shows a predicted score range, projected run rate, and confidence indicators, with input validation to block impossible match states.",
     tags: [
       { name: "PYTHON", color: "blue-text-gradient" },
       { name: "CATBOOST", color: "green-text-gradient" },
