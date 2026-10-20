@@ -186,15 +186,95 @@ const experiences = [
 
 ];
 
+// const CodingProfile = [
+//   {
+//     name: "Codolio",
+//     username: "shubham_kumar",
+//     link: "https://codolio.com/profile/shubham_kumar",
+//     image: colelio,
+//     achievements: [
+//       {
+//         problem: "1000+ DSA Problems",
+//       },
+//     ],
+//   },
+//   {
+//     name: "GeeksForGeeks",
+//     username: "shubhamkr145",
+//     link: "https://www.geeksforgeeks.org/profile/shubhamkr145",
+//     image: geeksforgeeks,
+//     achievements: [
+//       {
+//         Rank: "88(Institute Rank)",
+//         problem: "400+",
+//       },
+//     ],
+//   },
+//   {
+//   name: "LeetCode",
+//   username: "Shubham_k_r",
+//   link: "https://leetcode.com/u/Shubham_k_r/",
+//   image: leetcode,
+//   achievements: [
+//     {
+//       Rank: "Knight | 1864 (Top 5.96%)",
+//       problem: "400+",
+//     },
+//   ],
+// },
+//   {
+//   name: "Codeforces",
+//   username: "shubham-kumar-145",
+//   link: "https://codeforces.com/profile/shubham-kumar-145",
+//   image: codeforce,
+//   achievements: [
+//     {
+//       Rank: "Pupil | 1207 (Codeforces Rating)",
+//       problem: "400+",
+//     },
+//   ],
+// },
+// ];
+  // codeforce,
+  // codechef,
+  // geeksforgeeks,
+  // leetcode,
+  // colelio,
+
 const CodingProfile = [
   {
-    name: "Codolio",
-    username: "shubham_kumar",
-    link: "https://codolio.com/profile/shubham_kumar",
-    image: colelio,
+    name: "LeetCode",
+    username: "Shubham_k_r",
+    link: "https://leetcode.com/u/Shubham_k_r/",
+    image: leetcode,
     achievements: [
       {
-        problem: "1000+ DSA Problems",
+        Rank: "Knight | 1864 (Top 5.96%)",
+        problem: "400+",
+      },
+    ],
+  },
+  {
+    name: "CodeChef",
+    username: "shubham_kr145",
+    link: "https://www.codechef.com/users/shubham_kr145",
+    image: codechef,
+    achievements: [
+      {
+        Rank: "2-Star | 1502 | DSA 1941 | Global Ranks 99 & 209",
+        problem: "300+",
+      },
+    ],
+  },
+  {
+    name: "Codeforces",
+    username: "shubham-kumar-145",
+    link: "https://codeforces.com/profile/shubham-kumar-145",
+    image: codeforce,
+    achievements: [
+      {
+        Rank: "Pupil | 1278 (Max 1278)",
+        problem: "200+",
       },
     ],
   },
@@ -205,35 +285,23 @@ const CodingProfile = [
     image: geeksforgeeks,
     achievements: [
       {
-        Rank: "88(Institute Rank)",
-        problem: "400+",
+        Rank: "Institute Rank 88",
+        problem: "500+",
       },
     ],
   },
   {
-  name: "LeetCode",
-  username: "Shubham_k_r",
-  link: "https://leetcode.com/u/Shubham_k_r/",
-  image: leetcode,
-  achievements: [
-    {
-      Rank: "Knight | 1864 (Top 5.96%)",
-      problem: "400+",
-    },
-  ],
-},
-  {
-  name: "Codeforces",
-  username: "shubham-kumar-145",
-  link: "https://codeforces.com/profile/shubham-kumar-145",
-  image: codeforce,
-  achievements: [
-    {
-      Rank: "Pupil | 1207 (Codeforces Rating)",
-      problem: "400+",
-    },
-  ],
-},
+    name: "Codolio",
+    username: "shubham_kumar",
+    link: "https://codolio.com/profile/shubham_kumar",
+    image: colelio,
+    achievements: [
+      {
+        Rank: "45 Contests | All Platforms",
+        problem: "1000+ DSA Problems",
+      },
+    ],
+  },
 ];
 
 const MyclickPhoto = [
