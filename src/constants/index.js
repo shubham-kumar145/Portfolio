@@ -357,7 +357,7 @@ const MyclickPhoto = [
 // ];
 
 const Achievements = [
-    {
+  {
     name: "NCC 'C' Certificate (Alpha Grade)",
     description:
       "Awarded the NCC 'C' Certificate with Alpha Grade, the highest grade, after completing advanced National Cadet Corps training in leadership, discipline, teamwork, drill, weapon training, and national service. Demonstrated consistent commitment and performance across multiple NCC camps and organizational activities.",
@@ -389,13 +389,11 @@ const Achievements = [
     name: "Smart India Hackathon – Top 5",
     description:
       "Ranked in the Top 5 among 50+ teams in the Smart India Hackathon internal round at BIT Mesra, designing and presenting a technical solution to a real-world problem statement under strict time constraints.",
-    date: "YEAR",
+    date: "2024", 
     items: [
       {
         id: 1,
-        img: "https://drive.google.com/file/d/1hRxzii9VKdVf4qzSU_j1hXPEWfkyNpKX/view",
-        id: 2,
-        img: "https://drive.google.com/file/d/1hRxzii9VKdVf4qzSU_j1hXPEWfkyNpKX/view?usp=sharing",
+        img: "https://drive.google.com/thumbnail?id=1hRxzii9VKdVf4qzSU_j1hXPEWfkyNpKX&sz=w1000",
       },
     ],
   },
@@ -407,16 +405,18 @@ const Achievements = [
     items: [
       {
         id: 1,
-        img: "https://drive.google.com/file/d/1K6Q_VhdQA3-4SwgglMPQrS4rjnq6kBzW/view",
+        img: "https://drive.google.com/thumbnail?id=1K6Q_VhdQA3-4SwgglMPQrS4rjnq6kBzW&sz=w1000",
+      },
+      {
         id: 2,
-        img: "https://drive.google.com/file/d/1WfygGp25sQKiikLJYRCcjuiBKFUicom6/view",
+        img: "https://drive.google.com/thumbnail?id=1WfygGp25sQKiikLJYRCcjuiBKFUicom6&sz=w1000",
+      },
+      {
         id: 3,
         img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1767102764/gssoc_xjzkgj.png",
       },
     ],
   },
-  
-
 ];
 const projects = [
 
