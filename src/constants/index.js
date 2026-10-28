@@ -423,6 +423,31 @@ const projects = [
   // ── Web Dev Projects ──────────────────────────────────────
 
   // 1
+    {
+    name: "DEVFLOW AI",
+    type: "web",
+    category: "FULL STACK · AI",
+    description:
+      "AI software agency where six agents turn a written brief into working code: a project manager, an architect and two developers powered by Gemini write the plan and code, then QA runs real tests and DevOps starts a live preview. Clients approve each stage, watch progress live over Socket.io, and download the source as a zip. Built with React, Express, FastAPI with LangGraph, and PostgreSQL, with spend caps, agent self-repair and admin escalations.",
+    tags: [
+      { name: "REACT", color: "blue-text-gradient" },
+      { name: "NODE JS", color: "green-text-gradient" },
+      { name: "LANGGRAPH", color: "pink-text-gradient" },
+      { name: "POSTGRESQL", color: "orange-text-gradient" },
+    ],
+    link: "https://ai-workflow-rosy-omega.vercel.app/",
+    status: "complete",
+    item: [
+      { id: 1, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1793188954/Screenshot_2026-10-28_172753_mssmoz.png" },
+      { id: 2, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1793188954/Screenshot_2026-10-28_172902_f0xa7i.png" },
+      { id: 3, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1793188954/Screenshot_2026-10-28_172917_o6gmy5.png" },
+      { id: 4, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1793188954/Screenshot_2026-10-28_172910_klomep.png" },
+      { id: 5, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1793188954/Screenshot_2026-10-28_172926_ctavt9.png" },
+      { id: 6, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1793188955/Screenshot_2026-10-28_172944_kpnkt6.png" },
+      { id: 7, img: "https://res.cloudinary.com/dkbowuecy/image/upload/v1793188954/Screenshot_2026-10-28_172959_ubooen.png" },
+    ],
+    source_code_link: "https://github.com/shubham-kumar145/ai-workflow",
+  },
   {
     name: "PORTFOLIO WEBSITE",
     type: "web",
